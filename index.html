@@ -1,7 +1,5 @@
 <!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#07151b"><title>HADAL DIVE｜深海探査 (v16)</title>
-<link rel="apple-touch-icon" href="./IMG_2145.jpeg">
-<link rel="icon" type="image/png" href="./IMG_2145.jpeg">
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#07151b"><title>HADAL DIVE｜深海探査 (v17)</title>
 <style>
 :root{color-scheme:dark;--bg:#081419;--panel:#0e2026;--edge:#284047;--ink:#edf4ee;--muted:#9db1b2;--mint:#79e8c2;--gold:#f4bf6a;--mono:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace;--sans:"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif}
 *{box-sizing:border-box}html{background:var(--bg);scrollbar-color:#315059 #0a191f}body{margin:0;color:var(--ink);font:15px/1.5 var(--sans);background:radial-gradient(ellipse at 60% 5%,#10252b,transparent 65%),#081419}button,select{font:inherit;color:inherit}button{cursor:pointer;touch-action:manipulation;border:1px solid var(--edge);background:#11262c;border-radius:5px}button:hover{border-color:#5a8a87;background:#18343a}button:active,.down{background:#21443e!important}button:focus-visible,select:focus-visible{outline:2px solid var(--mint);outline-offset:3px}button:disabled{cursor:default;color:#809292;border-color:#294045;background:#13242a}.icon{width:19px;height:19px;flex:none;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}.symbol{display:inline-flex;align-items:center;justify-content:center}.mono,.code,kbd,.subline{font-family:var(--mono)}.code,.subline{letter-spacing:.12em;font-weight:600;font-size:11px;color:var(--muted)}.wrap{max-width:1680px;margin:auto;padding:0 clamp(14px,2.35vw,40px) 14px}.top{display:flex;align-items:center;height:76px;gap:14px;border-bottom:1px solid var(--edge);margin-bottom:18px}.logo{height:42px;width:42px;color:var(--mint)}.brandName{font-family:Arial,sans-serif;font-size:27px;letter-spacing:.04em;font-weight:900;font-style:italic;line-height:1}.brandName b{color:var(--mint)}.brandSub{font-size:10px;font-weight:bold;letter-spacing:.19em;color:var(--muted);margin-top:6px}.topRight{display:flex;align-items:center;gap:8px;margin-left:auto}.timeBox{display:flex;align-items:center;gap:9px;margin-right:13px;font-size:13px;color:#cad5d3}.topButton{width:38px;height:38px;display:grid;place-items:center}.layout{display:grid;grid-template-columns:minmax(0,1fr) clamp(260px,22vw,338px);gap:16px}.leftcol{display:flex;flex-direction:column;min-width:0;gap:12px}.viewport,.box,.hot,.touchControls{border:1px solid var(--edge);border-radius:7px;overflow:hidden;background:var(--panel)}.viewport{display:flex;flex-direction:column;flex:auto}.viewhead,.viewfoot,.panelhead{display:flex;align-items:center;gap:9px}.viewhead{padding:0 15px;height:38px;flex:none;background:#10252b}.viewhead h1,.panelhead h2,.moduleTitle h2{font-size:14px;letter-spacing:.07em;margin:0}.viewhead .symbol,.panelhead .symbol,.moduleTitle .symbol{color:var(--mint)}.viewhead .code{margin-left:auto}.live{display:flex;align-items:center;gap:5px;font:700 10px var(--mono);letter-spacing:.12em;color:var(--mint);padding:3px 6px;background:#173d35;border-radius:3px}.live i{background:var(--mint);width:5px;height:5px;border-radius:50%}.screen{isolation:isolate;position:relative;overflow:hidden;background:#083748;min-height:300px;flex:1;height:clamp(300px,min(55.5vh,calc(100svh - 355px)),700px)}#sea{position:absolute;inset:0;display:block;width:100%;height:100%;image-rendering:pixelated;touch-action:none}.corn{position:absolute;width:14px;height:14px;border:solid #b7f3e299;pointer-events:none;z-index:1}.c1{left:9px;top:9px;border-width:2px 0 0 2px}.c2{right:9px;top:9px;border-width:2px 2px 0 0}.c3{left:9px;bottom:9px;border-width:0 0 2px 2px}.c4{right:9px;bottom:9px;border-width:0 2px 2px 0}.biome{position:absolute;left:21px;top:18px;pointer-events:none;text-shadow:0 2px 4px #001a29}.biome .code{color:#cff3ed;letter-spacing:.16em;font-size:10px}.biome strong{display:block;font-size:clamp(18px,1.55vw,25px);letter-spacing:.12em;line-height:1.4}.fieldmark{position:absolute;bottom:18px;right:20px;color:#c9ece1;font:10px var(--mono);text-shadow:1px 1px 2px #00151a;text-align:center;opacity:.8;pointer-events:none}.fieldmark i{display:block;height:5px;border:solid currentColor;border-width:0 1px 1px;margin-bottom:4px}.fieldcoords{position:absolute;bottom:19px;left:21px;font:10px var(--mono);color:#cde9e3;text-shadow:1px 1px 2px #001c28;pointer-events:none}.viewfoot{min-height:31px;padding:4px 14px;justify-content:space-between;font:11px var(--mono);letter-spacing:.055em;color:#a2b9b7}.signal{display:flex;align-items:center;gap:6px}.bars{color:var(--mint);font-size:13px;letter-spacing:-2px}.screenMsg{pointer-events:none;position:absolute;left:50%;top:15%;transform:translateX(-50%);padding:6px 12px;text-align:center;background:#082128ec;border:1px solid #5a8b85;border-radius:4px;font-size:13px;color:#ecfff3;max-width:85%;width:max-content}.hidden,[hidden]{display:none!important}.warnFlag{position:absolute;left:50%;bottom:12px;transform:translateX(-50%);background:#492923e8;border:1px solid #ed956d;color:#ffd1ac;border-radius:3px;font-size:12px;padding:3px 8px;white-space:nowrap}.hot{display:flex;align-items:center;gap:18px;padding:12px 14px;min-height:61px}.hotGroup{display:flex;align-items:center;gap:8px;color:#c6d3d1;font-size:13px;white-space:nowrap}kbd{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:25px;padding:1px 5px;border:1px solid #426065;border-bottom:2px solid #48656a;border-radius:4px;background:#1c3136;color:#dfebe6;font-size:12px;font-weight:700;line-height:1}.keys{display:inline-flex;gap:2px}.guide{margin-left:auto;display:flex;align-items:center;justify-content:center;width:30px;height:30px;flex:none}.sidebar{display:flex;flex-direction:column;gap:12px}.box{padding:15px 16px}.panelhead{margin-bottom:12px}.panelhead .code,.moduleTitle .code{margin-left:auto;font-size:10px;letter-spacing:.13em}.depthRow{display:flex;align-items:end;justify-content:space-between;margin:4px 0 13px}.depthLabel{font-size:12px;color:var(--muted)}.depthDisplay{display:flex;align-items:baseline;gap:6px;font:600 clamp(36px,3.2vw,58px)/1.15 var(--mono);letter-spacing:-.085em;color:var(--mint)}.depthDisplay small{font-size:18px;letter-spacing:normal}.wave{width:38%;height:38px;border-bottom:1px solid #294c48}.meter{margin:12px 0}.mr{display:flex;gap:6px;align-items:center;font-size:13px}.mr .icon,.fuel .icon{width:15px;height:15px}.mr strong{margin-left:auto;font:600 14px var(--mono)}.mr strong small{font-size:11px;font-weight:400;color:var(--muted)}.track{height:7px;background:#233a3f;border-radius:2px;overflow:hidden;margin-top:6px}.track i{display:block;width:100%;height:100%;background:var(--mint)}.track.amber i{background:var(--gold)}.hpI{color:var(--mint)}.powI{color:var(--gold)}.details{border-top:1px solid var(--edge);padding-top:10px;display:grid;gap:6px;font-size:12px;color:var(--muted)}.detail{display:flex;justify-content:space-between;align-items:center}.detail b{color:#d3e3df;font-weight:600}.fuel{display:flex;gap:10px;align-items:center;font:12px var(--mono)}.fuel em{font-style:normal;color:#b0e6cc}.objective{border-left:3px solid var(--gold);padding-left:14px}.objective .panelhead{margin-bottom:6px}.objective .symbol{color:var(--gold)}.objective strong{font-size:14px}.objective p{font-size:12px;color:#abbdbb;margin:3px 0 0}.moduleTitle{display:flex;gap:8px;align-items:center;margin:0 0 9px}.slots{display:flex;gap:8px}.slot{display:flex;align-items:center;text-align:left;gap:7px;min-width:0;flex:1;padding:8px;font-size:12px}.slot kbd{width:21px;min-width:21px;height:22px;color:var(--mint)}.slot span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.deck{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}.deck button{display:flex;align-items:center;gap:11px;padding:12px 16px;text-align:left;font-weight:bold;position:relative}.deck .symbol{width:33px;height:33px;color:var(--mint);border-radius:4px;background:#193633}.deck small{display:block;font:10px var(--mono);letter-spacing:.13em;color:#9ab0ad;margin-top:3px}.deck .shortcut{margin-left:auto;color:var(--muted);font:11px var(--mono)}.logline{display:flex;align-items:center;gap:10px;margin:12px 2px 0;color:#9eb4b2;font-size:12px}.logline .code{color:#71baa4;font-size:10px}.logline time{font:11px var(--mono);color:#829a9a}.touchControls{display:none}.batch{display:flex;align-items:center;gap:5px;margin-bottom:8px;color:var(--muted);font-size:12px}.batch span{margin-right:4px}.batch .tab{padding:3px 9px}.catalog .depthLabel{white-space:nowrap}
@@ -40,7 +38,7 @@ clock:'<circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/>',help:'<circle cx=
 function icon(k){return '<span class="symbol"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">'+paths[k]+'</svg></span>'}
 document.querySelectorAll('[data-i]').forEach(el=>{el.innerHTML=icon(el.dataset.i);el.style.display='inline-flex'});
 const TAU=Math.PI*2, clamp=(v,a,b)=>Math.max(a,Math.min(b,v)), dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
-const WORLD_W=5000,WORLD_H=10000/(3/20),TILE=8, NX=Math.ceil(WORLD_W/TILE),NY=Math.ceil(WORLD_H/TILE);
+const WORLD_W=3000/(3/20),WORLD_H=10000/(3/20),TILE=8, NX=Math.ceil(WORLD_W/TILE),NY=Math.ceil(WORLD_H/TILE);
 // Tiles, saved positions and excavation IDs stay in the original map coordinate system.
 const METERS_PER_UNIT=3/20;
 const HOSTILE_MIN_DEPTH_M=150;
@@ -53,14 +51,15 @@ const meters=units=>units*METERS_PER_UNIT, worldUnits=m=>m/METERS_PER_UNIT;
 const canTransfer=y=>y>=0&&y<=worldUnits(100);
 const biomeEnds=[170,550,1550,3800,Infinity];
 const biomeIndex=y=>biomeEnds.findIndex(end=>y<end);
-const saveKey='hadal.dive.v1',start={x:2500,y:32};
-const names={hard2:'超硬質素材（レシピ②）',filter:'放射線防護フィルター',beacon:'ビーコン',pb:'鉛',si:'シリカイト',ti:'チタン',cu:'銅',ag:'銀',au:'金',rb:'ルビー',dm:'ダイヤモンド',mt:'磁鉄鉱',li:'リチウム',ky:'青晶石',cor:'ディープコーラル',shell:'ハードシェル',gel:'アシッドゲル',enz:'酵素',h:'水素',d:'重水素',wire:'銅線',wkit:'配線キット',advkit:'高度配線キット',acid:'酸',sacid:'強酸',hard:'超硬質素材',board:'基盤',advboard:'高度基盤',rod:'磁界制御棒',repair:'修理キット',bench:'強化ベンチ',pulse:'パルス発生装置',drill:'ドリルアーム',sonar:'ソナー発生装置',stun:'長射程スタンガン',torp:'魚雷ランチャー',pressure:'水圧防御',shield:'電磁防御',eff:'高効率燃料変換',fast:'高速採掘機',jet:'推進機',screw:'水力スクリュー',panel:'高性能ソーラーパネル',battery:'予備バッテリー',pack:'予備パック',detector:'高級金属探知機'};
-const ores=['si','ti','cu','ag','au','rb','dm','mt','li','ky','pb'],actives=['pulse','drill','sonar','stun','torp'],passives=['pressure','shield','eff','fast','jet','screw','panel','battery','pack','detector','filter'],mods=[...actives,...passives];
-const recipes={wire:{cu:3},wkit:{ag:5,au:1},advkit:{wkit:2,acid:4,auI:1},acid:{gel:5},sacid:{acid:1,au:5,enz:5},hard:{dm:1,tiI:3,cuI:3},hard2:{siI:5,agI:1,liI:1,mtI:1},board:{cor:5,shell:5,wire:2,ag:3},advboard:{board:2,cuI:1,rb:5,au:5},rod:{si:50,mt:5,sacid:1},repair:{tiI:2,siI:1,wire:1},bench:{tiI:2,cuI:1,ag:5,advkit:1,advboard:1,wire:3},pulse:{wkit:2,board:1,agI:1},drill:{advkit:1,board:1,hard:1},sonar:{wkit:1,board:1,agI:1},stun:{wkit:1,advboard:1,auI:1,siI:2},torp:{advkit:1,advboard:1,rbI:1,acid:5},pressure:{tiI:1,siI:1,wkit:1},shield:{agI:1,wkit:1,board:1},eff:{cuI:2,wkit:2,au:5},fast:{acid:2,hard:1},jet:{rbI:1,cuI:1,board:1,wkit:1},screw:{tiI:2,shell:10,acid:2},panel:{shell:8,wire:2,rb:5},battery:{cuI:2,gel:10,au:5},pack:{siI:3,sacid:1,enz:5},detector:{siI:8,advkit:1,board:1,mt:5},filter:{pbI:1,sacid:1,enz:3},beacon:{ti:5,cu:5}};
+const saveKey='hadal.dive.v1',start={x:WORLD_W/2,y:32};
+const shelfCenter=()=>g.legacyShelf?2500:(Math.floor(start.x/TILE)+.5)*TILE;
+const names={bomb:'即席爆弾',sulfur:'サルファー',hard2:'超硬質素材（レシピ②）',filter:'放射線防護フィルター',beacon:'ビーコン',pb:'鉛',si:'シリカイト',ti:'チタン',cu:'銅',ag:'銀',au:'金',rb:'ルビー',dm:'ダイヤモンド',mt:'磁鉄鉱',li:'リチウム',ky:'青晶石',cor:'ディープコーラル',shell:'ハードシェル',gel:'アシッドゲル',enz:'酵素',h:'水素',d:'重水素',wire:'銅線',wkit:'配線キット',advkit:'高度配線キット',acid:'酸',sacid:'強酸',hard:'超硬質素材',board:'基盤',advboard:'高度基盤',rod:'磁界制御棒',repair:'修理キット',bench:'強化ベンチ',pulse:'パルス発生装置',drill:'ドリルアーム',sonar:'ソナー発生装置',stun:'長射程スタンガン',torp:'魚雷ランチャー',pressure:'水圧防御',shield:'電磁防御',eff:'高効率燃料変換',fast:'高速採掘機',jet:'推進機',screw:'水力スクリュー',panel:'高性能ソーラーパネル',battery:'予備バッテリー',pack:'予備パック',detector:'高級金属探知機'};
+const ores=['si','ti','cu','ag','au','rb','dm','mt','li','ky','pb'],actives=['pulse','drill','sonar','stun','torp','bomb'],passives=['pressure','shield','eff','fast','jet','screw','panel','battery','pack','detector','filter'],mods=[...actives,...passives];
+const recipes={bomb:{tiI:2,cuI:2,sulfur:30,wkit:1,pbI:1},wire:{cu:3},wkit:{ag:5,au:1},advkit:{wkit:2,acid:4,auI:1},acid:{gel:5},sacid:{acid:1,au:5,enz:5},hard:{dm:1,tiI:3,cuI:3},hard2:{siI:5,agI:1,liI:1,mtI:1},board:{cor:5,shell:5,wire:2,ag:3},advboard:{board:2,cuI:1,rb:5,au:5},rod:{si:50,mt:5,sacid:1},repair:{tiI:2,siI:1,wire:1},bench:{tiI:2,cuI:1,ag:5,advkit:1,advboard:1,wire:3},pulse:{wkit:2,board:1,agI:1},drill:{advkit:1,board:1,hard:1},sonar:{wkit:1,board:1,agI:1},stun:{wkit:1,advboard:1,auI:1,siI:2},torp:{advkit:1,advboard:1,rbI:1,acid:5},pressure:{tiI:1,siI:1,wkit:1},shield:{agI:1,wkit:1,board:1},eff:{cuI:2,wkit:2,au:5},fast:{acid:2,hard:1},jet:{rbI:1,cuI:1,board:1,wkit:1},screw:{tiI:2,shell:10,acid:2},panel:{shell:8,wire:2,rb:5},battery:{cuI:2,gel:10,au:5},pack:{siI:3,sacid:1,enz:5},detector:{siI:8,advkit:1,board:1,mt:5},filter:{pbI:1,sacid:1,enz:3},beacon:{ti:5,cu:5}};
 for(const o of ores){names[o+'I']=names[o]+'のインゴッド';recipes[o+'I']={[o]:o==='si'?30:10}}
 const upRecipes={pulse:{mtI:3,rbI:3,wire:10},drill:{liI:2,hard:3},sonar:{mtI:1,ky:5,rod:4},stun:{liI:2,advkit:1,advboard:1,ky:5},torp:{kyI:1,sacid:1,enz:10}};
-const descriptions={filter:'耐久60。汚染地帯で1秒につき1消費。複数装備時は残量の少ないものを優先。',beacon:'積載庫から設置。航海端末で名前・色・表示を変更できます。',pulse:'電力35・CT 8秒。周囲の生物にダメージを与え、3秒間スタン。',drill:'電力15/秒。押している間、機首の岩盤を掘削。',sonar:'電力20・CT 6秒。半径50 mの鉱床と敵性生物の方向を4秒間表示。',stun:'電力30・CT 10秒。前方へ電撃を放ち、命中した生物を2秒間スタン。',torp:'電力50・CT 22秒。前方で最も近い生物を追尾し、着弾時に爆発。',pressure:'装備中、圧壊深度を50 m延長。',shield:'被弾を1回無効化。25秒で再充填。',eff:'移動・ブースト・モジュールの消費電力を10%軽減。',fast:'採掘・採取速度が50%上昇。',jet:'移動速度とブーストの距離・速度が25%増加。',screw:'ブースト後の移動速度が50%上昇し、3秒かけて通常に戻る。',panel:'ソーラー発電が最大12/秒になり、深度500 mまで有効。',battery:'電力切れで150回復。90秒で再充填。',pack:'艇の破壊時に耐久度30で復旧。120秒で再充填。',detector:'装備中、鉱床とドリル掘削でダイヤモンドの抽選の重みが2倍。出現深度は400 m以深。',repair:'1個使用で耐久度を30回復。積載庫で使用できます。',bench:'一度製作すると、どの深度でもアクティブモジュールを強化可能。'};
-const upText={pulse:'有効半径が25 mから38 mに拡大し、威力が上昇。',drill:'掘削が高速化。電力12/秒になり、接触した生物にもダメージ。',sonar:'半径80 mを走査し、方向を6秒間表示。',stun:'威力が上昇し、スタンが4秒に延長。',torp:'威力が上昇し、着弾点の半径26 mに爆風ダメージ。'};
+const descriptions={bomb:'機首方向に投げ、命中地点から半径5 mの岩盤を破壊し、生物に45ダメージ。1発消費・CT 4秒。深度500 mで解放。',filter:'耐久60。汚染地帯で1秒につき1消費。複数装備時は残量の少ないものを優先。',beacon:'積載庫から設置。航海端末で名前・色・表示を変更できます。',pulse:'電力35・CT 8秒。半径8 mの生物にダメージを与え、3秒間スタン。',drill:'電力15/秒。押している間、機首の岩盤を掘削。',sonar:'電力20・CT 6秒。半径50 mの鉱床と敵性生物の方向を4秒間表示。',stun:'電力30・CT 10秒。前方へ電撃を放ち、命中した生物を2秒間スタン。',torp:'電力50・CT 22秒。前方で最も近い生物を追尾し、着弾時に爆発。',pressure:'装備中、圧壊深度を50 m延長。',shield:'被弾を1回無効化。25秒で再充填。',eff:'移動・ブースト・モジュールの消費電力を10%軽減。',fast:'採掘・採取速度が50%上昇。',jet:'移動速度とブーストの距離・速度が25%増加。',screw:'ブースト後の移動速度が50%上昇し、3秒かけて通常に戻る。',panel:'ソーラー発電が最大12/秒になり、深度500 mまで有効。',battery:'電力切れで150回復。90秒で再充填。',pack:'艇の破壊時に耐久度30で復旧。120秒で再充填。',detector:'装備中、鉱床とドリル掘削でダイヤモンドの抽選の重みが2倍。出現深度は400 m以深。',repair:'1個使用で耐久度を30回復。積載庫で使用できます。',bench:'一度製作すると、どの深度でもアクティブモジュールを強化可能。'};
+const upText={pulse:'半径8 mのパルスの威力が上昇。',drill:'掘削が高速化。電力12/秒になり、接触した生物にもダメージ。',sonar:'半径80 mを走査し、方向を6秒間表示。',stun:'威力が上昇し、スタンが4秒に延長。',torp:'威力が上昇し、着弾点の半径26 mに爆風ダメージ。'};
 function hullRecipe(level){
  const r={tiI:level}, add=(o,n)=>{if(n>=10)r[o+'I']=Math.floor(n/10);if(n%10)r[o]=n%10};
  add('cu',level*5);add('ag',Math.max(0,(level-1)*5));add('au',Math.max(0,(level-3)*5));
@@ -68,7 +67,7 @@ function hullRecipe(level){
  if(level%10===9)r.hard=Math.floor((level+1)/10);return r;
 }
 function seedNew(){return crypto.getRandomValues(new Uint32Array(1))[0]||823477}
-function fresh(){return {v:1,seed:seedNew(),sector:1,...start,face:1,hp:100,ep:1000,hull:0,inv:{},owned:{},active:[null,null],passive:[null,null,null],cd:{},bench:false,taken:[],dug:[],dead:[],clock:0,best:32,mined:0,gathered:0,kills:0,reachedFloor:false,surveyed:[],logs:[[0,'潜航開始。浅瀬の鉱床に接近しました。']],sound:false,fuelClock:0}}
+function fresh(){return {v:1,mapColumns:NX,seed:seedNew(),sector:1,...start,face:1,hp:100,ep:1000,hull:0,inv:{},owned:{},active:[null,null],passive:[null,null,null],cd:{},bench:false,taken:[],dug:[],dead:[],clock:0,best:32,mined:0,gathered:0,kills:0,reachedFloor:false,surveyed:[],logs:[[0,'潜航開始。浅瀬の鉱床に接近しました。']],sound:false,fuelClock:0}}
 function storedDive(){
  try{
   const data=JSON.parse(localStorage.getItem(saveKey));
@@ -77,7 +76,18 @@ function storedDive(){
  return null;
 }
 function loadState(){
- const state=Object.assign(fresh(),storedDive());
+ const old=storedDive(),state=Object.assign(fresh(),old);
+ if(old&&!old.mapColumns){
+  const rekey=id=>Math.floor(id/625)*NX+id%625;
+  state.dug=state.dug.map(rekey);
+  state.taken=state.taken.map(id=>typeof id==='number'?rekey(id):id.replace(/^(gazer:.*:)(\d+)$/,(all,p,n)=>p+rekey(Number(n))));
+  const timers=state.journal?.timers;
+  if(timers?.pockets)timers.pockets=timers.pockets.map(p=>p.map(rekey));
+  state.legacyShelf=true;
+  if(state.signals?.surface)state.signals.surface.x=start.x;
+ }
+ if(state.journal?.won['activeMade/5']){delete state.journal.won['activeMade/5'];state.journal.won['activeMade/6']=true}
+
  if(!Array.isArray(state.surveyed))state.surveyed=[];
  if(state.reachedFloor&&state.best<WORLD_H-1)state.reachedFloor=false;
  return state;
@@ -105,51 +115,58 @@ function pressureDamagePerSecond(worldY){
  return 0.5+0.025*excessMeters+0.0003*excessMeters**2;
 }
 function solar(y){const cap=has('panel')?500:200,rate=has('panel')?12:8;return y<=100?rate:Math.max(0,rate*(cap-y)/(cap-100))}
-const world=new Uint8Array(NX*NY),readyRows=new Uint8Array(NY),tileKey=(x,y)=>y*NX+x;
+const terrainStrips=new Map(),stripSize=48,stripsAcross=Math.ceil(NX/stripSize),tileKey=(x,y)=>y*NX+x;
 const surface=new Float32Array(NX),links=new Float32Array(NX);
 function raw(x,y){
  if(x<0||x>=NX||y>=NY)return true;
  if(y<0)return false;
- if(!readyRows[y])generateRow(y);
- return world[tileKey(x,y)]===1;
+ const strip=Math.floor(x/stripSize),key=y*stripsAcross+strip;
+ let cells=terrainStrips.get(key);
+ if(!cells){
+  cells=generateStrip(y,strip*stripSize);
+  if(terrainStrips.size>=32768)terrainStrips.delete(terrainStrips.keys().next().value);
+  terrainStrips.set(key,cells);
+ }
+ return cells[x%stripSize]===1;
 }
 function solid(x,y){if(x<0||x>=NX||y>=NY)return true;if(y<0)return false;return raw(x,y)&&!dug.has(tileKey(x,y))}
 const nodeCache=new Map(),lifeCache=new Map();let localNodes=[],localLife=[];
 const hostileSpawns=new Set();
 function makeWorld(){
- wreckCache.clear();resetExpeditionMap();prepareJournal();readyRows.fill(0);carrion.length=0;const pi=g.seed%311;
- for(let tx=0;tx<NX;tx++){const x=(tx+.5)*TILE,d=Math.abs(x-2500);const local=57+Math.sin((x-2500)/31)*10+noise(x/23,5)*8;const zone=36+noise(x/104,2)*70+noise(x/25,3)*28;surface[tx]=local+(zone-local)*clamp((d-80)/140,0,1);links[tx]=Math.sin(x/134+pi)*29+Math.sin(x/45+pi*.4)*10}
+ wreckCache.clear();resetExpeditionMap();prepareJournal();terrainStrips.clear();carrion.length=0;const pi=g.seed%311;
+ for(let tx=0;tx<NX;tx++){const x=(tx+.5)*TILE,d=Math.abs(x-shelfCenter());const local=57+Math.sin((x-shelfCenter())/31)*10+noise(x/23,5)*8;const zone=36+noise(x/104,2)*70+noise(x/25,3)*28;surface[tx]=local+(zone-local)*clamp((d-80)/140,0,1);links[tx]=Math.sin(x/134+pi)*29+Math.sin(x/45+pi*.4)*10}
  nodeCache.clear();lifeCache.clear();hostileSpawns.clear();hostileBands.clear();originalSites.clear();oreByChunk.clear();venomLeft=0;refreshLocal();
 }
-function generateRow(ty){
- readyRows[ty]=1;
- const pi=g.seed%311,y=(ty+.5)*TILE;const trunk=2539+Math.sin(y/137+pi)*Math.min(28,y*.13)+Math.sin(y/39+pi*.2)*Math.min(12,y*.06);const shift=trunk-2539;const band=Math.floor(y/155);
+function generateStrip(ty,first){
+ const cells=new Uint8Array(Math.min(stripSize,NX-first)),center=shelfCenter();
+ const pi=g.seed%311,y=(ty+.5)*TILE;const trunk=center+39+Math.sin(y/137+pi)*Math.min(28,y*.13)+Math.sin(y/39+pi*.2)*Math.min(12,y*.06);const shift=trunk-center-39;const band=Math.floor(y/155);
  const ship=shipAtDepth(y);const bandTwist=hash(band,2,8)*35;let yMid=band*155+72+bandTwist;
- for(let tx=0;tx<NX;tx++){const x=(tx+.5)*TILE;let open=y<surface[tx];if(!open){
- const c=Math.round((x-2539)/218),mid=2539+c*218+shift+(c===0?0:Math.sin(y/95+c+pi)*22);
+ for(let tx=first;tx<first+cells.length;tx++){const x=(tx+.5)*TILE;let open=y<surface[tx];if(!open){
+ const c=Math.round((x-shelfCenter()-39)/218),mid=center+39+c*218+shift+(c===0?0:Math.sin(y/95+c+pi)*22);
  const width=13+6*(1+Math.sin(y/51+c))+(c===0?7:0);
  const cross=Math.abs(y-(yMid+links[tx]))<12+6*(1+Math.cos(x/53+band));
  const cavity=Math.sin(x/47+y/76+pi)+Math.sin(y/33-x/75+pi*.2)+Math.cos(x/29-y/47)>1.53;
  open=Math.abs(x-mid)<width||cross||cavity}
  open=regionTerrain(open,x,y,tx,ty,trunk);if(ship)open=shipTerrain(ship,x,y,open);
- if(x>=2456&&x<=2508&&y>=(x>2490?55:49)&&y<86)open=false;
- if(x>=2456&&x<=2508&&y<(x>2490?55:49))open=true;
- world[tileKey(tx,ty)]=open?0:1}
+ if(x>=center-44&&x<=center+8&&y>=(x>center-10?55:49)&&y<86)open=false;
+ if(x>=center-44&&x<=center+8&&y<(x>center-10?55:49))open=true;
+ cells[tx-first]=open?0:1}
+ return cells;
 }
 function floorAt(x){const tx=Math.floor(x/TILE);for(let y=3;y<40;y++)if(raw(tx,y))return y*TILE;return 64}
 function chunkNodes(cx,cy){
- const key=cx+','+cy;if(nodeCache.has(key))return nodeCache.get(key);ensureNodeBands(cy);const rare=oreByChunk.get(key)||[];const arr=[...rare];
+ const key=cx+','+cy;if(nodeCache.has(key))return nodeCache.get(key);ensureNodeBands(cx,cy);const rare=oreByChunk.get(key)||[];const arr=[...rare];
  for(let ty=Math.max(0,cy*12);ty<Math.min(NY,(cy+1)*12);ty++)for(let tx=Math.max(0,cx*12);tx<Math.min(NX,(cx+1)*12);tx++){
  if(raw(tx,ty)||rare.some(n=>n.tx===tx&&n.ty===ty))continue;const below=raw(tx,ty+1),wall=raw(tx+1,ty)||raw(tx-1,ty);if(!below&&!wall)continue;
- const side=below?0:raw(tx-1,ty)?1:-1;const x=(tx+(side===1?.04:side===-1?.96:.5))*TILE,y=(ty+(below?.98:.50))*TILE;const starter=Math.abs(x-start.x)<.1&&Math.abs(y-floorAt(start.x))<1;
- const starter2=(Math.abs(x-2476)<.1||Math.abs(x-2460)<.1)&&Math.abs(y-floorAt(x))<1;
+ const side=below?0:raw(tx-1,ty)?1:-1;const x=(tx+(side===1?.04:side===-1?.96:.5))*TILE,y=(ty+(below?.98:.50))*TILE;const starter=Math.abs(x-shelfCenter())<.1&&Math.abs(y-floorAt(shelfCenter()))<1;
+ const starter2=(Math.abs(x-(shelfCenter()-24))<.1||Math.abs(x-(shelfCenter()-40))<.1)&&Math.abs(y-floorAt(x))<1;
  const depth=meters(y),pick=hash(tx,ty,19),region=regionAt(x,y).id;
- let kind=starter?'ore':starter2?(x===2460?'bio':'ore'):depth>=150&&pick<.22?'fuel':pick>(depth>=150?.72:.79)?'bio':'ore';
+ let kind=starter?'ore':starter2?(x===shelfCenter()-40?'bio':'ore'):depth>=150&&pick<.22?'fuel':pick>(depth>=150?.72:.79)?'bio':'ore';
  if(!starter&&!starter2&&['nodules','vent','crystal','abyssCrystal','void','cliffs','rock'].includes(region)&&kind==='bio'&&hash(tx,ty,1570)<.55)kind='ore';
  if(region==='whale'&&below&&kind==='ore'&&pick<.5)kind='bio';
  const boost=region==='cliffs'&&side?2.5:['rock','nodules','void'].includes(region)?1.45:1;
  const density=(below?.16:.115)*(kind==='ore'?boost:1);
- if(!starter&&!starter2&&(hash(tx,ty,15)>density||side&&ty%2===0||y<90&&Math.abs(x-2500)<39))continue;
+ if(!starter&&!starter2&&(hash(tx,ty,15)>density||side&&ty%2===0||y<90&&Math.abs(x-shelfCenter())<39))continue;
  arr.push({x,y,id:tileKey(tx,ty),kind,variant:hash(tx,ty,23),starter,tx,ty,side});
  }
  for(const landmark of landmarksInChunk(cx,cy))if(landmark.kind==='whale'){
@@ -166,7 +183,7 @@ function habitat(x,y){
  if(y<worldUnits(HOSTILE_MIN_DEPTH_M))return 'shallow';
  const quietBiome=hash(0,0,154)<.65?3:4;
  if(biomeIndex(y)===quietBiome)return 'biome';
- const lane=Math.round((x-2539)/218), group=Math.floor(lane/4);
+ const lane=Math.round((x-shelfCenter()-39)/218), group=Math.floor(lane/4);
  return lane-group*4===Math.floor(hash(group,0,155)*4)?'passage':'hunting';
 }
 function lifeSlot(cx,cy,j){
@@ -180,7 +197,7 @@ function lifeSlot(cx,cy,j){
  return {id:cx+','+cy+':'+j,a,b,x,y,r,hostile};
 }
 function chunkLife(cx,cy){
- const key=cx+','+cy;if(lifeCache.has(key))return lifeCache.get(key);ensureHostileBand(Math.floor(cy/24));const out=[];
+ const key=cx+','+cy;if(lifeCache.has(key))return lifeCache.get(key);ensureHostileBand(Math.floor(cx/12),Math.floor(cy/12));const out=[];
  for(let j=0;j<LIFE_SLOTS;j++){
  const slot=lifeSlot(cx,cy,j);if(!slot)continue;
  if(solid(Math.floor(slot.x/TILE),Math.floor(slot.y/TILE))||(slot.hostile&&!hostileSpawns.has(slot.id)))continue;
@@ -191,7 +208,7 @@ function chunkLife(cx,cy){
   const x=spot.x,y=spot.y-3;
   if(!solid(spot.tx,spot.ty-1))populateEncounter({id:spot.id+'/colony',a:spot.tx,b:spot.ty,x,y,r:0,hostile:false},out,speciesByName.get(name));
  }
- if(cy===0&&cx===Math.floor(start.x/96))populateStarterReef(out);
+ if(cy===0&&cx===Math.floor(shelfCenter()/96))populateStarterReef(out);
  const ship=shipAtDepth((cy+.5)*96);const native=out.filter(e=>!zoneAt(e.x,e.y));if(ship)native.push(...ship.enemies.filter(e=>Math.floor(e.homeX/96)===cx&&Math.floor(e.homeY/96)===cy));lifeCache.set(key,native);return native
 }
 function inRadius(center,radius,source){
@@ -210,17 +227,18 @@ function inRadius(center,radius,source){
  if(isLife)for(const item of candidates)if(item.hp>0&&!dead.has(item.id)&&dist(center,item)<=radius)found.push(item);
  return found;
 }
-function refreshLocal(){const cx=Math.floor(g.x/96),cy=Math.floor(g.y/96);refreshExpedition(cx,cy);localNodes=[];localLife=[];for(let y=Math.max(0,cy-2);y<=cy+2;y++)for(let x=Math.max(0,cx-3);x<=cx+3;x++){localNodes.push(...chunkNodes(x,y).filter(n=>!taken.has(n.id)));for(const e of chunkLife(x,y))if(!dead.has(e.id)){localLife.push(e);if(e.partner)localLife.push(e.partner)}}}
-function fits(x,y,rx=7.2,ry=3.8){if(x<rx||x>WORLD_W-rx||y<0||y>WORLD_H)return false;for(const ox of [-rx,rx])for(const oy of [-ry,ry])if(y+oy<WORLD_H&&solid(Math.floor((x+ox)/8),Math.floor((y+oy)/8)))return false;return true}
-function safeSpawn(y){let x=start.x;if(y>45){for(let step=0;step<625;step++){const dx=Math.ceil(step/2)*8*(step%2?1:-1);if(fits(x+dx,y))return {x:x+dx,y}}}return {x,y}}
+function refreshLocal(){const cx=Math.floor(g.x/96),cy=Math.floor(g.y/96);refreshExpedition(cx,cy);localNodes=[];localLife=[];for(let y=Math.max(0,cy-2);y<=Math.min(cy+2,Math.ceil(WORLD_H/96)-1);y++)for(let x=Math.max(0,cx-3);x<=Math.min(cx+3,Math.ceil(WORLD_W/96)-1);x++){localNodes.push(...chunkNodes(x,y).filter(n=>!taken.has(n.id)));for(const e of chunkLife(x,y))if(!dead.has(e.id)){localLife.push(e);if(e.partner)localLife.push(e.partner)}}}
+function fits(x,y,rx=7.2,ry=3.8){if(x<rx||x>WORLD_W-rx||y<0||y>WORLD_H)return false;for(const ox of [-rx,rx])for(const oy of [-ry,ry])if(y+oy<WORLD_H&&solid(Math.min(NX-1,Math.floor((x+ox)/TILE)),Math.floor((y+oy)/TILE)))return false;return true}
+function safeSpawn(y){let x=start.x;if(y>45){for(let step=0;step<NX;step++){const dx=Math.ceil(step/2)*8*(step%2?1:-1);if(fits(x+dx,y))return {x:x+dx,y}}}return {x,y}}
 const fmtTime=t=>[Math.floor(t/3600),Math.floor(t/60)%60,Math.floor(t)%60].map(n=>String(n).padStart(2,'0')).join(':');
-const oreRate=[['si',0,34],['ti',0,34],['cu',0,24],['ag',100,27],['au',300,24],['rb',300,10],['dm',400,4],['pb',700,16],['mt',600,25],['li',800,25],['ky',1200,8]];
+const oreRate=[['si',0,34],['ti',0,34],['cu',0,24],['ag',100,27],['au',300,24],['rb',300,10],['dm',400,4],['pb',500,16],['mt',600,25],['li',800,25],['ky',1200,8]];
 function rollOre(y,rand=Math.random){return localOre(y,'',rand)}
 function materialYield(raw){return Math.max(1,Math.floor(raw*MATERIAL_YIELD_FACTOR))}
+function oreYield(k,amount){return Math.max(1,Math.floor(amount*(['mt','li','pb'].includes(k)?.55:.78)))}
 function nodeLoot(n){const depth=meters(n.y),r={},factor=1+Math.floor(depth/100)*.18+depth/2200;const qty=(min,max)=>materialYield((min+Math.random()*(max-min+1))*factor);
  if(n.kind==='fuel'){r.h=qty(3,7);if(Math.random()<.36)r.d=qty(1,2)}
- else if(n.kind==='bio'){r.gel=qty(1,2);if(depth>=150&&Math.random()<.6)r.cor=qty(1,2);if(depth>=200&&Math.random()<.5)r.shell=qty(1,1);if(depth>=150&&Object.keys(r).length===1)r.cor=qty(1,1);if(n.whale||regionAt(n.x??g.x,n.y).id==='whale')r.enz=qty(1,2)}
- else{let k=n.rare?localOre(depth,'guarded'):n.starter?'ti':n.x===2476&&n.y<90?'cu':localOre(depth,regionAt(n.x??g.x,n.y).id);r[k]=qty(k==='dm'||k==='rb'?1:k==='au'?2:5,k==='dm'?2:k==='rb'||k==='au'?4:11);if(n.starter)r.ti=materialYield(10)}
+ else if(n.kind==='bio'){r.gel=qty(1,2);if(depth>=100&&Math.random()<.48)r.sulfur=qty(2,4);if(depth>=150&&Math.random()<.6)r.cor=qty(1,2);if(depth>=200&&Math.random()<.5)r.shell=qty(1,1);if(depth>=150&&Object.keys(r).length===1)r.cor=qty(1,1);if(n.whale||regionAt(n.x??g.x,n.y).id==='whale')r.enz=qty(1,2)}
+ else{let k=n.rare?localOre(depth,'guarded'):n.starter?'ti':n.x===shelfCenter()-24&&n.y<90?'cu':localOre(depth,regionAt(n.x??g.x,n.y).id);r[k]=qty(k==='dm'||k==='rb'?1:k==='au'?2:5,k==='dm'?2:k==='rb'||k==='au'?4:11);r[k]=oreYield(k,n.starter?materialYield(10):r[k])}
  return r}
 
 ;
@@ -349,6 +367,17 @@ function regionTerrain(open,x,y,tx,ty,trunk){
  if(sample>=32)return true;
  const id=regionDefinitions[sample].id,ledge=regionColumns.ledge[tx],dune=regionColumns.dune[tx];
  const vx=x+regionPhase+regionShaft,vy=y+regionPhase;
+ if(!g.legacyShelf){
+  // Low sand bars, scalloped reef arches and stepped cliff ledges.
+  if(id==='sand'&&regionMod(vy+dune,125)>80&&regionMod(vy+dune,125)<91&&Math.sin(vx/36)>.27)return false;
+  if(id==='coral'){
+   const arch=Math.hypot((regionMod(vx,180)-90)/56,(regionMod(vy+ledge,145)-102)/50);
+   if(arch<.76)return true;
+   if(arch<1.02&&regionMod(vy+ledge,145)<100)return false;
+  }
+  if(id==='cliffs'&&regionMod(vx,215)>51&&regionMod(vx,215)<108&&regionMod(vy+ledge,114)<12)return false;
+  if(id==='luminous'&&regionMod(vy+regionColumns.meander[tx]*.7,118)<28)return true;
+ }
  switch(id){
  case 'sand':case 'mud':case 'sediment':case 'whale':case 'nodules':case 'seep':{
   const spacing=id==='mud'||id==='sediment'?208:id==='whale'?174:id==='seep'?152:125;
@@ -411,9 +440,9 @@ function resetExpeditionMap(){
  resetRegionMap();baseCache.clear();siteChunks.clear();landmarkChunks.clear();localSites=[];localLandmarks=[];deviceTarget=null;prepareExpedition(g);
 }
 function planCount(k){return actives.includes(k)?5:3}
-function needsPlan(k){return mods.includes(k)&&k!=='pulse'&&k!=='shield'&&k!=='filter'}
+function needsPlan(k){return mods.includes(k)&&k!=='pulse'&&k!=='shield'&&k!=='filter'&&k!=='bomb'}
 function planProgress(k){return mk(k)?planCount(k):(g.blueprints[k]||[]).length}
-function planReady(k){if(k==='filter')return !!g.filterRecipe;return !needsPlan(k)||planProgress(k)>=planCount(k)}
+function planReady(k){if(k==='bomb')return meters(g.best)>=500;if(k==='filter')return !!g.filterRecipe;return !needsPlan(k)||planProgress(k)>=planCount(k)}
 const BLUEPRINT_BONUS_COST=5;
 function recordPiece(k,piece){
  const pieces=g.blueprints[k]??=[];
@@ -426,7 +455,7 @@ function duplicatePlan(o){
  if(g.blueprintPoints<BLUEPRINT_BONUS_COST)return '設計図重複：設計図ポイント +1（'+g.blueprintPoints+' / '+BLUEPRINT_BONUS_COST+'）';
  const research=actives.filter(needsPlan),incomplete=research.filter(k=>!planReady(k));
  const pool=incomplete.length?incomplete:passives.filter(k=>needsPlan(k)&&!planReady(k));
- if(!pool.length)return exchangeShellPoints()?'拡張外殻ユニット +'+g.shellUnit+'　圧壊深度 '+limit()+' m':'設計図ポイントを保管：汚染地帯のレシピ発見後に外殻へ交換';
+ if(!pool.length)return exchangeShellPoints()?'拡張外殻ユニット +'+g.shellUnit+'　圧壊深度 '+limit()+' m':'設計図ポイントを保管：すべてのモジュール解放後に拡張外殻へ交換';
  g.blueprintPoints-=BLUEPRINT_BONUS_COST;
  const module=pool[Math.floor(hash(o.tx,o.ty,954)*pool.length)];
  const owned=g.blueprints[module]||[],missing=[];
@@ -599,7 +628,7 @@ function interactFacility(target){
   const loot=[];
   for(let i=0,count=3+Math.floor(hash(o.tx,o.ty,1550)*3);i<count;i++){
    const item=pool.splice(Math.floor(hash(o.tx,o.ty,1551+i)*pool.length),1)[0];
-   const amount=1+Math.floor(hash(o.tx,o.ty,1562+i)*4);credit(item,amount);loot.push(names[item]+' ×'+amount);
+   const amount=1+Math.floor(hash(o.tx,o.ty,1562+i)*4);const received=ores.includes(item)?oreYield(item,amount):amount;credit(item,received);loot.push(names[item]+' ×'+received);
   }
   g.fieldLog[key]=true;if(o.kind==='chest'&&shipAtDepth(o.y).items.filter(v=>v.kind==='chest').every(v=>g.fieldLog[v.id+'/chamber']))peak('allChests');notice('チャンバー回収：'+loot.join('・'));
  }else if(part==='dock'){
@@ -771,7 +800,7 @@ function populateEncounter(slot,out,specified){
 }
 function populateStarterReef(out){
  // Fixed near the first dive so the player can recognize a school and a reef resident.
- for(const [name,x,y] of [['キビナゴ',2517,26],['カクレクマノミ',2486,40]]){
+ for(const [name,x,y] of [['キビナゴ',shelfCenter()+17,26],['カクレクマノミ',shelfCenter()-14,40]]){
   const s=speciesByName.get(name);if(!s||solid(Math.floor(x/TILE),Math.floor(y/TILE)))continue;
   populateEncounter({id:'reef:'+name,x,y,a:x,b:y,r:0,hostile:false},out,s);
  }
@@ -2367,18 +2396,18 @@ function gazerOre(slot){
  places.sort((a,b)=>a.priority-b.priority);
  return places.length>=want?places.slice(0,want):null;
 }
-function ensureHostileBand(band){
- const rows=24,lo=band*rows,hi=lo+rows;
- if(band<0||lo*96>=WORLD_H||hostileBands.has(band))return;
- hostileBands.add(band);
+function ensureHostileBand(column,band){
+ const size=12,lo=band*size,hi=lo+size,left=column*size,right=left+size,key=column+','+band;
+ if(column<0||band<0||left*96>=WORLD_W||lo*96>=WORLD_H||hostileBands.has(key))return;
+ hostileBands.add(key);
  const candidates=[];
  for(let cy=Math.max(0,lo-3,Math.floor(worldUnits(HOSTILE_MIN_DEPTH_M)/96));cy<hi+3&&cy*96<WORLD_H;cy++){
-  for(let cx=0;cx*96<WORLD_W;cx++)for(let j=0;j<LIFE_SLOTS;j++){
+  for(let cx=Math.max(0,left-3);cx<right+3&&cx*96<WORLD_W;cx++)for(let j=0;j<LIFE_SLOTS;j++){
    const slot=lifeSlot(cx,cy,j);
    if(!slot?.hostile||raw(Math.floor(slot.x/TILE),Math.floor(slot.y/TILE)))continue;
    const site=originalSite(slot);
    if(!site&&meters(slot.y)>3000)continue;
-   candidates.push({...slot,x:site?.x??slot.x,y:site?.y??slot.y,site,inside:cy>=lo&&cy<hi,priority:hash(slot.a,slot.b,156)});
+   candidates.push({...slot,x:site?.x??slot.x,y:site?.y??slot.y,site,inside:cx>=left&&cx<right&&cy>=lo&&cy<hi,priority:hash(slot.a,slot.b,156)});
   }
  }
  candidates.sort((a,b)=>a.priority-b.priority||a.id.localeCompare(b.id));
@@ -2405,9 +2434,9 @@ function ensureHostileBand(band){
   const k=col+','+row;if(!buckets.has(k))buckets.set(k,[]);buckets.get(k).push(slot);
  }
 }
-function ensureNodeBands(cy){
- const first=Math.max(0,Math.floor((cy-2)/24)),last=Math.floor((cy+2)/24);
- for(let band=first;band<=last;band++)ensureHostileBand(band);
+function ensureNodeBands(cx,cy){
+ for(let row=Math.max(0,Math.floor((cy-2)/12));row<=Math.floor((cy+2)/12);row++)
+ for(let col=Math.max(0,Math.floor((cx-2)/12));col<=Math.floor((cx+2)/12);col++)ensureHostileBand(col,row);
 }
 
 ;
@@ -3602,6 +3631,43 @@ const drawRegionEnvironment=(()=>{
  };
 })();
 
+// Distant silhouettes move more slowly than the hull and stay behind the collision terrain.
+function paintBiomeHorizon(c,v){
+ const id=regionAt(v.cx,Math.max(0,v.cy)).id,top=Math.max(0,Math.ceil(v.h/2-v.cy*v.zoom));
+ if(top>=v.h)return;
+ c.save();c.beginPath();c.rect(0,top,v.w,v.h-top);c.clip();
+ if(id==='kelp'){c.fillStyle='rgba(5,31,25,.12)';c.fillRect(0,top,v.w,v.h-top)}
+ const colors={kelp:'#3b7161',coral:'#6c8886',sand:'#aaa082',mud:'#666375',sediment:'#514c5c',trench:'#364e65',cliffs:'#466276',crystal:'#7870a1',abyssCrystal:'#4d7698',vent:'#634c54',wreck:'#6c6765',whale:'#908c8a',luminous:'#5aafaa',rock:'#57777b',seep:'#719690',nodules:'#747277',void:'#394362',radiation:'#757747'};
+ for(let layer=0;layer<2;layer++){
+  const scroll=v.cx*v.zoom*(.16+.15*layer),spacing=layer?65:44,first=Math.floor(scroll/spacing)-1;
+  c.fillStyle=colors[id]||'#547077';c.globalAlpha=layer?.37:.19;
+  for(let j=0;j<Math.ceil(v.w/spacing)+3;j++){
+   const index=first+j,r=hash(index,layer,2066),x=Math.round(index*spacing-scroll),base=v.h+6-Math.floor(r*15),height=Math.round((.22+.44*r)*v.h);
+   if(id==='kelp'){
+    for(let n=0;n<3;n++)for(let y=0;y<height*(.72+.12*n);y+=4){
+     const k=Math.round(x+5*n+(2+n)*Math.sin(v.time*.55+y*.05+r*5));
+     c.fillRect(k,base-y,2,5);
+     if(y%12===0){const side=(y/12+n)%2?1:-1;c.fillRect(k+(side<0?-5:1),base-y-2,5,2);c.fillRect(k+(side<0?-7:5),base-y-4,3,2)}
+    }
+   }else if(['sand','mud','sediment','seep','nodules'].includes(id)){
+    for(let off=0;off<spacing;off+=4){const h=9+Math.round(6*Math.sin((index*spacing+off)*.026)+r*5);c.fillRect(x+off,base-h,4,v.h-base+h)}
+    if(id==='seep'||id==='nodules')c.fillRect(x+16,base-23,5+Math.floor(r*6),7);
+   }else if(id==='luminous'||id==='void'){
+    for(let n=0;n<(id==='void'?2:7);n++){const y=top+Math.floor(hash(index,n,2040)*(v.h-top));c.fillRect(x+n*4,y+Math.round(Math.sin(v.time+n)),2,1)}
+   }else if(id==='coral'||id==='whale'){
+    for(let n=0;n<7;n++){const h=Math.round(height*(.25+.43*Math.sin(n*.45)));c.fillRect(x+n*4,base-h,2,h);c.fillRect(x+n*4-3,base-h+3,4,2)}
+   }else if(id==='wreck'||id==='vent'||id==='radiation'){
+    c.fillRect(x+6,base-height/2,8,height);c.fillRect(x+3,base-height/2,15,4);
+    if(id!=='vent')c.fillRect(x,base-height/3,spacing,3);
+   }else{
+    const spire=id==='crystal'||id==='abyssCrystal',w=spire?16:spacing+2;
+    for(let off=0;off<w;off+=3){const h=height*(spire?1-Math.abs(off/w-.45)*1.6:.48+.3*Math.cos(off*.06));c.fillRect(x+off,base-Math.floor(h),3,v.h-base+Math.ceil(h))}
+   }
+  }
+ }
+ c.restore();
+}
+
 ;
 // Object origins are the seabed contacts. The atlas has two art pixels per world unit.
 const paintExpeditionObject=(()=>{
@@ -3941,7 +4007,7 @@ function shipAtDepth(y){
  let ship=null;
  if(hash(band,0,1960)<.32){
   const radius=worldUnits(100+50*hash(band,0,1961));
-  const x=Math.round((radius+(WORLD_W-radius*2)*hash(band,0,1962))/8)*8;
+  const x=Math.round((radius+((g.legacyShelf?5000:WORLD_W)-radius*2)*hash(band,0,1962))/8)*8;
   const center=Math.round((worldUnits(200)+wreckBand*(band+.39+.22*hash(band,0,1963)))/8)*8;
   if(center+radius<WORLD_H){
    ship={id:'ship@'+band,x,y:center,radius,items:[],enemies:[]};
@@ -4208,7 +4274,7 @@ function updateEquipmentGoals(){
  peak('activeFit',a);peak('passiveFit',p);
  if(g.active.includes('stun')&&g.active.includes('torp'))peak('weapons');
  if(mods.every(made))peak('allMods');if(a===2&&p===3)peak('full');
- if(actives.every(k=>mk(k)===2))peak('upAll');if(has('filter'))peak('filterFit');
+ if(Object.keys(upRecipes).every(k=>mk(k)===2))peak('upAll');if(has('filter'))peak('filterFit');
 }
 function achievementPage(){
  const j=g.journal,groups=['すべて',...new Set(achievementList.map(a=>a.group))];
@@ -4278,13 +4344,13 @@ function rescue(mode){if(transition)return;addCount(mode==='power'?'ascent':'wre
  if(mode==='wreck'){for(const k of Object.keys(g.inv)){if(inv(k)>0&&Math.random()<.50){const q=Math.max(1,Math.floor(inv(k)*(.12+Math.random()*.4)));g.inv[k]-=q;loss.push(names[k]+' ×'+q)}}if(!loss.length){const keys=Object.keys(g.inv).filter(k=>inv(k)>0);if(keys.length){const k=keys[Math.floor(Math.random()*keys.length)];g.inv[k]--;loss.push(names[k]+' ×1')}}g.hp=100}
  g.ep=1000;g.x=start.x;g.y=mode==='power'?2:start.y;camX=g.x;camY=g.y;invul=2;refreshLocal();transition={mode,t:2,loss};log(mode==='wreck'?'救難艇が機体を回収。喪失物資：'+(loss.join('・')||'なし'):'電力枯渇。緊急浮上し、水面で再充電しました。');save()}
 function damageLife(e,n,stun=0,weapon=''){if(e.hp<=0)return;e.hp-=n;if(e.species?.attitude==='neutral')e.provoked=10;e.stun=Math.max(e.stun,stun);e.hit=.2;burst(e.x,e.y,'#83ddd5',6);if(e.hp>0)return;dead.add(e.id);recordDefeat(e,weapon);leaveRemains(e);g.kills++;const roll=Math.random();const amount=(e.atk||e.species?.group==='中型・大型生物'&&e.species.size>=1.8)?1+Number(roll<.06)+Number(roll<.01):Number(roll<(e.species?e.species.group==='中型・大型生物'?.24:.08:e.type==='shoal'?.08:.24));if(amount){credit('enz',amount);addFloat(e.x,e.y,'酵素 +'+amount,'#c7ffac');log('生物から酵素 ×'+amount+'を回収')}save()}
-function fireSlot(i){if(modal||transition)return;const k=g.active[i];if(!k){openPanel('fit');return}if(g.cd[k]>0){toast(names[k]+'：再使用まで '+Math.ceil(g.cd[k])+'秒',1.2);return}if(k==='drill'){drillOn=true;return}const info={pulse:[35,8],sonar:[20,6],stun:[30,10],torp:[50,22]}[k];const power=g.ep;if(!info||!spend(cost(info[0])))return;if(power<=100&&['stun','torp'].includes(k))peak('lastShot');g.cd[k]=info[1];const up=mk(k)===2;
- if(k==='pulse'){const rad=worldUnits(up?38:25);const targets=oncePerCreature(inRadius(g,rad,chunkLife));for(const e of targets)damageLife(e,up?23:12,3);peak('pulse3',targets.filter(e=>e.atk&&e.hp>0&&e.stun>0).length);ring(g.x,g.y,rad,'#80edd8',.65);ring(g.x,g.y,rad*.84,'#a0bdf4',.8);sound(170,.48,'sine',.065,52)}
+function fireSlot(i){if(modal||transition)return;const k=g.active[i];if(!k){openPanel('fit');return}if(g.cd[k]>0){toast(names[k]+'：再使用まで '+Math.ceil(g.cd[k])+'秒',1.2);return}if(k==='bomb'){launchBomb();return}if(k==='drill'){drillOn=true;return}const info={pulse:[35,8],sonar:[20,6],stun:[30,10],torp:[50,22]}[k];const power=g.ep;if(!info||!spend(cost(info[0])))return;if(power<=100&&['stun','torp'].includes(k))peak('lastShot');g.cd[k]=info[1];const up=mk(k)===2;
+ if(k==='pulse'){const rad=worldUnits(8);const targets=oncePerCreature(inRadius(g,rad,chunkLife));for(const e of targets)damageLife(e,up?23:12,3);peak('pulse3',targets.filter(e=>e.atk&&e.hp>0&&e.stun>0).length);ring(g.x,g.y,rad,'#80edd8',.65);ring(g.x,g.y,rad*.84,'#a0bdf4',.8);sound(170,.48,'sine',.065,52)}
  else if(k==='sonar'){sonarTime=up?6:4;sonarRadius=worldUnits(up?80:50);scans.length=0;for(const n of inRadius(g,sonarRadius,chunkNodes))if(n.kind==='ore')scans.push(n);for(const e of oncePerCreature(inRadius(g,sonarRadius,chunkLife)))if(e.atk)scans.push(e);ring(g.x,g.y,sonarRadius,'#82eabf',1.15);toast('ソナー反応 '+scans.length+' 件');sound(1120,.7,'sine',.06,680)}
  else{const target=k==='torp'?localLife.filter(e=>e.hp>0&&(e.x-g.x)*aim.x+(e.y-g.y)*aim.y>0).sort((a,b)=>dist(g,a)-dist(g,b))[0]:null;shots.push({kind:k,origin:{x:g.x,y:g.y},x:g.x+aim.x*7,y:g.y+aim.y*7,dx:aim.x,dy:aim.y,target,up,life:k==='torp'?4:2.4});sound(k==='torp'?180:1550,.23,k==='torp'?'triangle':'square',.035,k==='torp'?45:260)}
  save()}
 function explode(p,direct){ring(p.x,p.y,p.up?worldUnits(26):12,'#ffc87f');burst(p.x,p.y,'#ffc16b',28,25);burst(p.x,p.y,'#fff2c6',12,21);shake=reduced?0:2.5;sound(95,.35,'sawtooth',.065,32);if(p.up){const killsBefore=g.journal.count.kills||0;for(const e of oncePerCreature(inRadius(p,worldUnits(26)+14,chunkLife).filter(e=>dist(p,e)<worldUnits(26)+e.radius)))damageLife(e,88);peak('torp2',(g.journal.count.kills||0)-killsBefore)}else if(direct)damageLife(direct,62)}
-function tickShots(dt){for(let i=shots.length-1;i>=0;i--){const p=shots[i];p.life-=dt;const isT=p.kind==='torp';if(isT&&p.target?.hp>0){const dx=p.target.x-p.x,dy=p.target.y-p.y,l=Math.hypot(dx,dy)||1,t=Math.min(1,4.8*dt);p.dx+=(dx/l-p.dx)*t;p.dy+=(dy/l-p.dy)*t;const m=Math.hypot(p.dx,p.dy)||1;p.dx/=m;p.dy/=m}
+function tickShots(dt){for(let i=shots.length-1;i>=0;i--){const p=shots[i];p.life-=dt;if(p.kind==='bomb'){if(advanceBomb(p,dt))shots.splice(i,1);continue}const isT=p.kind==='torp';if(isT&&p.target?.hp>0){const dx=p.target.x-p.x,dy=p.target.y-p.y,l=Math.hypot(dx,dy)||1,t=Math.min(1,4.8*dt);p.dx+=(dx/l-p.dx)*t;p.dy+=(dy/l-p.dy)*t;const m=Math.hypot(p.dx,p.dy)||1;p.dx/=m;p.dy/=m}
  const speed=isT?64:112;p.x+=p.dx*speed*dt;p.y+=p.dy*speed*dt;const e=localLife.find(e=>e.hp>0&&dist(p,e)<e.radius+1.5);const wall=solid(Math.floor(p.x/8),Math.floor(p.y/8));if(wall||e||p.life<=0){if(isT)explode(p,wall?null:e);else if(e&&!wall){peak('shot',meters(dist(p.origin||g,e)));damageLife(e,p.up?44:26,p.up?4:2,'stun');ring(e.x,e.y,12,'#b4e6ff',.25)}shots.splice(i,1)}else if(Math.random()<dt*35)burst(p.x,p.y,isT?'#b9c7ac':'#93e3f5',1,2)}}
 function drillTick(k,dt){
  const up=mk(k)===2,drain=cost(up?12:15)*dt;if(g.ep<drain){g.ep=0;return}g.ep-=drain;drilling=true;drillClock-=dt;
@@ -4292,7 +4358,7 @@ function drillTick(k,dt){
  let cell=null;for(let d=5;d<=19&&!cell;d+=2)for(const off of [0,-3.7,3.7]){const x=Math.floor((g.x+aim.x*d-aim.y*off)/8),y=Math.floor((g.y+aim.y*d+aim.x*off)/8);if(x>=0&&x<NX&&y>=0&&y<NY&&solid(x,y)){cell={x,y};break}}
  if(cell){peak('dig');addCount('drillMeters',meters(TILE));
  inspectDrillOpening(cell);
- dug.add(tileKey(cell.x,cell.y));credit('si',materialYield(1+meters(g.y)/500));let drop='シリカイト';if(Math.random()<.16){const o=localOre(meters((cell.y+.5)*TILE),regionAt((cell.x+.5)*TILE,(cell.y+.5)*TILE).id);if(o!=='si'){credit(o,1);drop+='・'+names[o]}}addFloat(tx,ty,drop,'#e0dbba');burst(tx,ty,'#c5ac81',12);sound(110,.14,'triangle',.042,65)}
+ dug.add(tileKey(cell.x,cell.y));credit('si',oreYield('si',materialYield(1+meters(g.y)/500)));let drop='シリカイト';if(Math.random()<.16){const o=localOre(meters((cell.y+.5)*TILE),regionAt((cell.x+.5)*TILE,(cell.y+.5)*TILE).id);if(o!=='si'&&Math.random()<(['pb','li','mt'].includes(o)?.55:.78)){credit(o,1);drop+='・'+names[o]}}addFloat(tx,ty,drop,'#e0dbba');burst(tx,ty,'#c5ac81',12);sound(110,.14,'triangle',.042,65)}
  if(up)for(const e of oncePerCreature(localLife.filter(e=>e.hp>0&&Math.hypot(e.x-tx,e.y-ty)<e.radius+6)))damageLife(e,13,0,'drill')
 }
 function tickLife(dt){
@@ -4345,6 +4411,7 @@ function tick(dt,playedSeconds=dt){
  if(modal)return;
  const previousSavePeriod=Math.floor(g.clock/AUTOSAVE_SECONDS);
  g.clock+=playedSeconds;for(const k of Object.keys(g.cd))g.cd[k]=Math.max(0,g.cd[k]-dt);
+ if(!mk('bomb')&&!g.cd.bomb){const slot=g.active.indexOf('bomb');if(slot>=0)g.active[slot]=null}
  invul=Math.max(0,invul-dt);shake=Math.max(0,shake-7*dt);flash=Math.max(0,flash-dt);screwTime=Math.max(0,screwTime-dt);sonarTime=Math.max(0,sonarTime-dt);
  const dir=moveVector();thrust=!!(dir.x||dir.y);const boosting=boostTime>0;const move=boosting?boostDir:dir;
  if(move.x||move.y){aim=direction(move);if(Math.abs(aim.x)>.05)g.face=aim.x>0?1:-1}
@@ -4369,13 +4436,49 @@ function tick(dt,playedSeconds=dt){
  const pressureRate=pressureDamagePerSecond(g.y);
  if(pressureRate>0){hurt(pressureRate*dt);if(transition)return}
  if(!g.reachedFloor&&g.y>=WORLD_H-1){g.reachedFloor=true;notice('海溝底に到達。航海記録に登録しました');ring(g.x,g.y,42,'#8cf3d5',1.6);sound(430,.65,'sine',.06,875);save()}
- g.best=Math.max(g.best,g.y);refTimer-=dt;if(refTimer<=0){refreshLocal();trackPosition();refTimer=.42}
+ const bombUnlocked=meters(g.best)<500&&meters(g.y)>=500;g.best=Math.max(g.best,g.y);if(bombUnlocked){notice('深度500 m到達：即席爆弾のレシピを解放');if(exchangeShellPoints())log('拡張外殻ユニット +'+g.shellUnit);save()}refTimer-=dt;if(refTimer<=0){refreshLocal();trackPosition();refTimer=.42}
  selected=nearestNode();if(harvest){const n=harvest.n;if(taken.has(n.id)||Math.hypot(n.x-g.x,n.y-3-g.y)>27||!lineClear(g,n))harvest=null;else{harvest.progress+=dt*(has('fast')?1.5:1)/(n.kind==='fuel'?1.65:n.kind==='bio'?1.25:1.5);if(Math.random()<dt*30)burst(n.x,n.y-3,'#e8d19a',1,4);if(harvest.progress>=1){finishHarvest(n);harvest=null;selected=nearestNode()}}}
  tickLife(dt);if(transition)return;tickShots(dt);for(let i=parts.length-1;i>=0;i--){const p=parts[i];p.life-=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;if(p.life<=0)parts.splice(i,1)}
  for(let i=floats.length-1;i>=0;i--){floats[i].life-=dt;floats[i].y-=dt*4;if(floats[i].life<=0)floats.splice(i,1)}
  for(let i=rings.length-1;i>=0;i--){rings[i].age+=dt;if(rings[i].age>=rings[i].dur)rings.splice(i,1)}
  chartClock+=dt;if(chartClock>=1){chartClock=0;history.shift();history.push(meters(g.y))}
  if(Math.floor(g.clock/AUTOSAVE_SECONDS)>previousSavePeriod)save();
+}
+
+// Gameplay radii are specified in displayed metres; projectiles travel in world units.
+function launchBomb(){
+ if(!mk('bomb')){toast('即席爆弾の在庫がありません');return}
+ g.owned.bomb--;g.cd.bomb=4;
+ shots.push({kind:'bomb',x:g.x,y:g.y,dx:aim.x*72,dy:aim.y*72,life:9});
+ sound(230,.12,'triangle',.045,115);save();
+}
+function advanceBomb(p,dt){
+ p.dy+=19*dt;
+ const distance=Math.hypot(p.dx,p.dy)*dt,steps=Math.max(1,Math.ceil(distance/2.5));
+ for(let step=0;step<steps;step++){
+  p.x+=p.dx*dt/steps;p.y+=p.dy*dt/steps;
+  const hit=localLife.some(e=>e.hp>0&&dist(e,p)<=e.radius+1.4);
+  if(hit||solid(Math.floor(p.x/TILE),Math.floor(p.y/TILE))||p.y<0){
+   detonateBomb(p);return true;
+  }
+ }
+ return p.life<=0;
+}
+function detonateBomb(p){
+ const radius=worldUnits(5),cx=Math.floor(p.x/TILE),cy=Math.floor(p.y/TILE),span=Math.ceil(radius/TILE);
+ for(let y=Math.max(0,cy-span);y<=Math.min(NY-1,cy+span);y++)
+ for(let x=Math.max(0,cx-span);x<=Math.min(NX-1,cx+span);x++){
+  if(Math.hypot((x+.5)*TILE-p.x,(y+.5)*TILE-p.y)<=radius&&solid(x,y))dug.add(tileKey(x,y));
+ }
+ // Deposits on shattered rock are removed alongside their supporting terrain.
+ for(const n of inRadius(p,radius,chunkNodes)){
+  const x=Math.floor(n.x/TILE),y=Math.floor(n.y/TILE);
+  if(!solid(x,y+1)&&!solid(x-1,y)&&!solid(x+1,y))taken.add(n.id);
+ }
+ for(const e of oncePerCreature(inRadius(p,radius,chunkLife)))damageLife(e,45,0,'bomb');
+ shake=reduced?0:3;ring(p.x,p.y,radius,'#ffbf74',.45);
+ burst(p.x,p.y,'#ffd186',26,38);burst(p.x,p.y,'#a3bdaf',14,17);sound(88,.36,'sawtooth',.055,30);
+ refreshLocal();save();
 }
 
 ;
@@ -4395,36 +4498,36 @@ function craftList(){
  if(tab==='hull'){const h=g.hull+1,r=hullRecipe(h);if(g.shellUnit)html+='<p>拡張外殻ユニット +'+g.shellUnit+'　追加の圧壊深度 '+(g.shellUnit*100)+' m</p>';return html+recipeRow('外殻アップグレード '+h,'船体の基本圧壊深度　'+(100+100*g.hull)+' m → '+(100+100*h)+' m',r,'hull','強化',!afford(r))}
  if(tab==='upgrade'){
  if(!g.bench)return html+recipeRow(names.bench,descriptions.bench,recipes.bench,'make:bench','製作',!afford(recipes.bench));
- return html+actives.map(k=>{const r=upRecipes[k],owned=mk(k),moduleText='<div class="need"><span class="'+(owned?'yes':'no')+'">'+names[k]+' '+(owned?1:0)+' / 1</span></div>';return recipeRow(names[k]+' 改',upText[k],r,'up:'+k,owned===2?'強化済':g.cd[k]>0?'冷却中':'強化',owned!==1||!afford(r)||g.cd[k]>0,moduleText)}).join('')}
+ return html+Object.keys(upRecipes).map(k=>{const r=upRecipes[k],owned=mk(k),moduleText='<div class="need"><span class="'+(owned?'yes':'no')+'">'+names[k]+' '+(owned?1:0)+' / 1</span></div>';return recipeRow(names[k]+' 改',upText[k],r,'up:'+k,owned===2?'強化済':g.cd[k]>0?'冷却中':'強化',owned!==1||!afford(r)||g.cd[k]>0,moduleText)}).join('')}
  if(tab==='build')html+='<div class="batch"><span>製作回数</span>'+[1,5,10].map(n=>'<button class="tab '+(n===craftBatch?'sel':'')+'" data-act="batch:'+n+'">×'+n+'</button>').join('')+'</div>';
  if(tab==='active'||tab==='passive')html+='<p class="note">設計図ポイント　<strong>'+g.blueprintPoints+' / '+BLUEPRINT_BONUS_COST+'</strong>　・　5ポイントで設計図または拡張外殻を取得</p>';
  const list=tab==='active'?actives:tab==='passive'?passives:['tiI','cuI','agI','auI','wire','repair','wkit','board','acid','advkit','advboard','rod','sacid','hard','siI','rbI','dmI','mtI','liI','kyI','pbI','hard2','beacon'];
- return html+list.filter(k=>k!=='filter'||g.filterRecipe).map(k=>{const owned=mods.includes(k)&&k!=='filter'&&mk(k)>0,n=mods.includes(k)?1:craftBatch,r=scaledRecipe(k,n),amount=n;return recipeRow(names[k]+(k==='hard'?'（レシピ①）':'')+(amount>1?' ×'+amount:''),descriptions[k]||'',r,'make:'+k,owned?'製作済':!planReady(k)?(k==='filter'?'汚染地帯で解放':'設計図不足'):'製作',owned||!planReady(k)||!afford(r),needsPlan(k)?'<div class="desc">設計図 '+planProgress(k)+' / '+planCount(k)+'</div>':'')}).join('')
+ return html+list.filter(k=>k!=='filter'||g.filterRecipe).map(k=>{const owned=mods.includes(k)&&k!=='bomb'&&k!=='filter'&&mk(k)>0,n=mods.includes(k)?1:craftBatch,r=scaledRecipe(k,n),amount=n;return recipeRow(names[k]+(k==='hard'?'（レシピ①）':'')+(amount>1?' ×'+amount:''),descriptions[k]||'',r,'make:'+k,owned?'製作済':!planReady(k)?(k==='filter'?'汚染地帯で解放':k==='bomb'?'深度500 mで解放':'設計図不足'):'製作',owned||!planReady(k)||!afford(r),needsPlan(k)?'<div class="desc">設計図 '+planProgress(k)+' / '+planCount(k)+'</div>':'')}).join('')
 }
-function cargoPage(){const sections=[['鉱石',ores],['生物素材・燃料',['cor','shell','gel','enz','h','d']],['加工素材',Object.keys(recipes).filter(k=>!mods.includes(k)&&!['repair','bench'].includes(k))],['装備',mods.filter(k=>mk(k))]];
+function cargoPage(){const sections=[['鉱石',ores],['生物素材・燃料',['cor','shell','gel','enz','sulfur','h','d']],['加工素材',Object.keys(recipes).filter(k=>!mods.includes(k)&&!['repair','bench'].includes(k))],['装備',mods.filter(k=>mk(k))]];
  let html='<div class="recipe"><div><strong>修理キット　×'+inv('repair')+'</strong><div class="desc">耐久度 '+Math.ceil(g.hp)+' / 100　・　1個で30回復</div></div>'+button('使用する','repair',inv('repair')<1||g.hp>=100)+'</div><div class="noticeLine">'+esc(feedback)+'</div>';
  html+='<div class="recipe"><div><strong>ビーコン　×'+inv('beacon')+'</strong></div>'+button('現在地に設置','placeBeacon',!inv('beacon'))+'</div>';
  if(g.shellUnit)html+='<p class="note">拡張外殻ユニット +'+g.shellUnit+'　圧壊深度 +'+(100*g.shellUnit)+' m</p>';
  const held=Object.values(g.inv).some(n=>n>0)||mods.some(k=>mk(k));if(!held)html+='<p class="note">積載庫は空です。浅瀬の青緑色の鉱床に近づいて採取しましょう。</p>';
- for(const [title,items] of sections){const list=items.filter(k=>mods.includes(k)?mk(k):inv(k)>0);if(!list.length)continue;html+='<h3 class="subheading">'+title+'</h3><div class="invgrid">'+list.map(k=>'<div class="inv"><span>'+names[k]+(actives.includes(k)&&mk(k)===2?' 改':'')+'</span><b>'+(mods.includes(k)?(k==='filter'?g.filters.length:1):inv(k))+'</b></div>').join('')+'</div>'}return html
+ for(const [title,items] of sections){const list=items.filter(k=>mods.includes(k)?mk(k):inv(k)>0);if(!list.length)continue;html+='<h3 class="subheading">'+title+'</h3><div class="invgrid">'+list.map(k=>'<div class="inv"><span>'+names[k]+(upRecipes[k]&&mk(k)===2?' 改':'')+'</span><b>'+(mods.includes(k)?(k==='filter'?g.filters.length:k==='bomb'?mk(k):1):inv(k))+'</b></div>').join('')+'</div>'}return html
 }
 function fitPage(){let s='<p class="note">製作したモジュールをスロットに割り当てます。冷却中のアクティブモジュールは固定されます。</p><div class="noticeLine">'+esc(feedback)+'</div>';
  for(const [title,key,list] of [['アクティブ','active',actives],['パッシブ','passive',passives]]){s+='<h3 class="subheading">'+title+'</h3>';
  g[key].forEach((k,i)=>{const locked=key==='active'&&g.cd[k]>0;const cooldown=(g.cd[k]||0)>0?'　再充填 '+Math.ceil(g.cd[k])+'秒':'';
  const label=(key==='active'?(i?'C':'Q'):'P'+(i+1))+' スロット';
- s+='<div class="equipLine"><div><strong>'+label+'</strong><div class="desc">'+(k?names[k]+cooldown:'未装備')+'</div></div><select aria-label="'+label+'" data-equip="'+key+'" data-index="'+i+'" '+(locked?'disabled':'')+'><option value="">未装備</option>'+list.filter(m=>mk(m)&&m!=='filter').map(m=>'<option value="'+m+'" '+(m===k?'selected':'')+' '+(m!==k&&g[key].includes(m)?'disabled':'')+'>'+names[m]+(mk(m)===2?' 改':'')+'</option>').join('')+(key==='passive'?g.filters.map(f=>'<option value="filter-'+f.id+'" '+(g.filterSlots[i]===f.id?'selected':g.filterSlots.includes(f.id)?'disabled':'')+'>防護フィルター #'+f.id+'（'+Math.ceil(f.hp)+' / 60）</option>').join(''):'')+'</select></div>'})}
+ s+='<div class="equipLine"><div><strong>'+label+'</strong><div class="desc">'+(k?names[k]+cooldown:'未装備')+'</div></div><select aria-label="'+label+'" data-equip="'+key+'" data-index="'+i+'" '+(locked?'disabled':'')+'><option value="">未装備</option>'+list.filter(m=>(mk(m)||m===k)&&m!=='filter').map(m=>'<option value="'+m+'" '+(m===k?'selected':'')+' '+(m!==k&&g[key].includes(m)?'disabled':'')+'>'+names[m]+(m==='bomb'?' ×'+mk(m):mk(m)===2?' 改':'')+'</option>').join('')+(key==='passive'?g.filters.map(f=>'<option value="filter-'+f.id+'" '+(g.filterSlots[i]===f.id?'selected':g.filterSlots.includes(f.id)?'disabled':'')+'>防護フィルター #'+f.id+'（'+Math.ceil(f.hp)+' / 60）</option>').join(''):'')+'</select></div>'})}
  if(!mods.some(k=>mk(k)))s+='<p class="note">最初のモジュールは「製作・強化」で作成できます。</p>';return s+button('モジュールを製作','gotoMod')
 }
 function navPage(){let s=tabs([['sector','海域移動'],['signals','信号管理'],['catalog','資源図鑑'],['fauna','生物図鑑'],['achievements','実績'],['log','航海ログ']]);if(tab==='log')return s+g.logs.map(([t,m])=>'<div class="record"><time>'+fmtTime(t)+'</time>'+esc(m)+'</div>').join('');
  if(tab==='achievements')return s+achievementPage();
  if(tab==='signals')return s+signalPage();
  if(tab==='fauna')return s+faunaPage();
- if(tab==='catalog'){const rows=[['シリカイト・チタン','全深度','多い','鉱床・掘削'],['銅','全深度','普通','鉱床・掘削'],['銀','100 m以深','普通','鉱床・掘削'],['金','300 m以深','普通','鉱床・掘削'],['ルビー','300 m以深','低い','鉱床・掘削'],['ダイヤモンド','400 m以深','かなり低い','鉱床・掘削'],['磁鉄鉱','600 m以深','普通','鉱床・掘削'],['リチウム','800 m以深','普通','鉱床・掘削'],['鉛','700 m以深','準低確率','鉱床・掘削'],['青晶石','1,200 m以深','低い','鉱床・掘削'],['アシッドゲル','全深度','普通','生物採取ポイント'],['ディープコーラル','150 m以深','普通','生物採取ポイント'],['ハードシェル','200 m以深','普通','生物採取ポイント'],['水素・重水素','150 m以深','重水素は希少','水素結晶'],['酵素','生物の生息域','体格により変化','生物を撃破']];return s+'<div class="catalog">'+rows.map(([k,d,r,source])=>'<div class="recipe"><div><strong>'+k+'</strong><div class="desc">'+source+'　・　'+r+'</div></div><span class="depthLabel">'+d+'</span></div>').join('')+'</div>'}
+ if(tab==='catalog'){const rows=[['シリカイト・チタン','全深度','多い','鉱床・掘削'],['銅','全深度','普通','鉱床・掘削'],['銀','100 m以深','普通','鉱床・掘削'],['金','300 m以深','普通','鉱床・掘削'],['ルビー','300 m以深','低い','鉱床・掘削'],['ダイヤモンド','400 m以深','かなり低い','鉱床・掘削'],['磁鉄鉱','600 m以深','普通','鉱床・掘削'],['リチウム','800 m以深','普通','鉱床・掘削'],['サルファー','100 m以深','普通','生物採取ポイント'],['鉛','500 m以深','準低確率','鉱床・掘削'],['青晶石','1,200 m以深','低い','鉱床・掘削'],['アシッドゲル','全深度','普通','生物採取ポイント'],['ディープコーラル','150 m以深','普通','生物採取ポイント'],['ハードシェル','200 m以深','普通','生物採取ポイント'],['水素・重水素','150 m以深','重水素は希少','水素結晶'],['酵素','生物の生息域','体格により変化','生物を撃破']];return s+'<div class="catalog">'+rows.map(([k,d,r,source])=>'<div class="recipe"><div><strong>'+k+'</strong><div class="desc">'+source+'　・　'+r+'</div></div><span class="depthLabel">'+d+'</span></div>').join('')+'</div>'}
  const canMove=canTransfer(g.y),depth=meters(g.y),region=regionAt(g.x,g.y);
  const depthLabel=!canMove&&depth<100.1?'100 m超':Number(depth.toFixed(1))+' m';
  return s+'<h3>海域 '+String(g.sector).padStart(2,'0')+'</h3><p>'+verticalZone(depth,region.id)+'　／　'+region.name+'（'+region.rarity+'）</p><p class="note">水面から深度100 mまでの間、隣の海域へ移動できます。移動先では水面（0 m）から潜航を開始します。積載物・装備は引き継がれます。</p><div class="details"><div class="detail"><span>現在深度</span><b>'+depthLabel+'</b></div><div class="detail"><span>到達深度記録</span><b>'+Math.floor(meters(g.best))+' m</b></div><div class="detail"><span>採取した地点</span><b>'+g.gathered+'</b></div></div><p>'+button(canMove?'海域を移動する':'100 m以内まで浮上してください','travel',!canMove,true)+'</p>'
 }
-function manual(){return '<div class="helpList"><p><b>操艦</b>　WASD・矢印キー、または画面左のスティックで移動。スティックの傾きで速さを調節できます。Shift・スペースまたはブーストボタンで、移動方向に急加速します（電力'+BOOST_POWER+'）。</p><p><b>採取</b>　鉱床・生物採取ポイント・水素結晶に近づき、Eまたは採取ボタンを押すと、採取を開始します。完了時に電力'+HARVEST_POWER+'を消費して素材を回収します。途中で離れた場合や、完了時に電力が足りない場合は再挑戦できます。採取済みの地点はその海域では復活しません。</p><p><b>最初の強化</b>　近くの鉱床でチタンと銅を集めます。基本製作でチタン10個をインゴッドにし、外殻強化で銅5個と組み合わせます。</p><p><b>水圧</b>　最初の圧壊深度は100 mです。圧壊深度を超えると、深く潜るほど毎秒の耐久度損失が大きくなります。現在の損失は潜航モニターに表示されます。外殻1段階につき100 m延長できます。修理キットは積載庫で使用します。</p><p><b>発電・燃料</b>　通常移動は実際に進んだ1 mにつき電力'+MOVE_POWER_PER_METER+'を消費します。高効率燃料変換を装備すると消費は10%減ります。通常のソーラー発電は100 mまで8/秒で、200 mで止まります。150 m以深の水素結晶を採取すると燃料が補充され、不足時は5秒ごとに重水素1個で80、または水素1個で50回復します。</p><p><b>装備</b>　Q・Cにアクティブ2基、常時作動するパッシブ3基を装備できます。ドリルはボタンを押している間作動します。強化ベンチを製作すると各地で改型へ強化できます。</p><p><b>生物スキャン</b>　艇を生物に向け、前方'+SCAN_RANGE_M+' m以内でFキーまたはスキャンボタンを押します。登録した種の生息深度や動きは航海端末の「生物図鑑」で確認できます。製作・強化はBキーです。</p><p><b>沈没貨物</b>　前方の貨物ユニットをスキャンすると設計図を1枚取得します。アクティブは5枚、パッシブは3枚で製作解放。設計図が重複するたびに1ポイント獲得。5ポイントで未完成のアクティブモジュールの設計図をランダムに1枚取得します。アクティブをすべて解放すると未解放のパッシブ設計図を、防護フィルターを含む全モジュールを解放すると拡張外殻ユニットを得ます。1段階で圧壊深度が100 m増加します。防護フィルターは汚染地帯を発見すると解放されます。パルス発生装置と電磁防御は最初から製作できます。</p><p><b>深海拠点と信号</b>　深度300 m以深の拠点には沈没貨物が1〜2基あります。左のチャンバーに接近してEまたは操作ボタンで物資を回収します。右の整備ステーションはドッキングで全回復できる一回限りの設備です。沈没端末に電力50を供給すると整備ビーコンが起動します。航海端末の「信号管理」で色と表示を選べます。</p><p><b>生物との遭遇</b>　敵性生物は深度'+HOSTILE_MIN_DEPTH_M+' m以深に生息します。静穏な通路とバイオームでは敵性生物に遭遇しません。</p><p><b>海域移動</b>　深度0〜100 mで航海端末を開き、別の海域の水面へ移動できます。</p><p><b>航行復旧</b>　電力切れでは水面に緊急浮上します。耐久度が尽きると物資を一部失い、出発地点で復旧します。</p><p><b>航海記録</b>　プレイ時間5分ごとに同じブラウザへ自動保存します。採取やスキャンの完了時、メニューを開いた時にも保存します。各端末メニューを開くと航行は一時停止します。</p></div>'}
+function manual(){return '<div class="helpList"><p><b>操艦</b>　WASD・矢印キー、または画面左のスティックで移動。スティックの傾きで速さを調節できます。Shift・スペースまたはブーストボタンで、移動方向に急加速します（電力'+BOOST_POWER+'）。</p><p><b>採取</b>　鉱床・生物採取ポイント・水素結晶に近づき、Eまたは採取ボタンを押すと、採取を開始します。完了時に電力'+HARVEST_POWER+'を消費して素材を回収します。途中で離れた場合や、完了時に電力が足りない場合は再挑戦できます。採取済みの地点はその海域では復活しません。</p><p><b>最初の強化</b>　近くの鉱床でチタンと銅を集めます。基本製作でチタン10個をインゴッドにし、外殻強化で銅5個と組み合わせます。</p><p><b>水圧</b>　最初の圧壊深度は100 mです。圧壊深度を超えると、深く潜るほど毎秒の耐久度損失が大きくなります。現在の損失は潜航モニターに表示されます。外殻1段階につき100 m延長できます。修理キットは積載庫で使用します。</p><p><b>発電・燃料</b>　通常移動は実際に進んだ1 mにつき電力'+MOVE_POWER_PER_METER+'を消費します。高効率燃料変換を装備すると消費は10%減ります。通常のソーラー発電は100 mまで8/秒で、200 mで止まります。150 m以深の水素結晶を採取すると燃料が補充され、不足時は5秒ごとに重水素1個で80、または水素1個で50回復します。</p><p><b>装備</b>　Q・Cにアクティブ2基、常時作動するパッシブ3基を装備できます。ドリルはボタンを押している間作動します。強化ベンチを製作すると各地で改型へ強化できます。</p><p><b>生物スキャン</b>　艇を生物に向け、前方'+SCAN_RANGE_M+' m以内でFキーまたはスキャンボタンを押します。登録した種の生息深度や動きは航海端末の「生物図鑑」で確認できます。製作・強化はBキーです。</p><p><b>沈没貨物</b>　前方の貨物ユニットをスキャンすると設計図を1枚取得します。アクティブは5枚、パッシブは3枚で製作解放。設計図が重複するたびに1ポイント獲得。5ポイントで未完成のアクティブモジュールの設計図をランダムに1枚取得します。アクティブをすべて解放すると未解放のパッシブ設計図を、防護フィルターを含む全モジュールを解放すると拡張外殻ユニットを得ます。1段階で圧壊深度が100 m増加します。防護フィルターは汚染地帯を発見すると解放されます。パルス発生装置と電磁防御は最初から製作できます。</p><p><b>深海拠点と信号</b>　深度300 m以深の拠点には沈没貨物が1〜2基あります。左のチャンバーに接近してEまたは操作ボタンで物資を回収します。右の整備ステーションはドッキングで全回復できる一回限りの設備です。沈没端末に電力50を供給すると整備ビーコンが起動します。航海端末の「信号管理」で色と表示を選べます。</p><p><b>生物との遭遇</b>　敵性生物は深度'+HOSTILE_MIN_DEPTH_M+' m以深に生息します。静穏な通路とバイオームでは敵性生物に遭遇しません。</p><p><b>海域移動</b>　深度0〜100 mで航海端末を開き、別の海域の水面へ移動できます。</p><p><b>航行復旧</b>　電力切れでは水面に緊急浮上します。耐久度が尽きると物資を一部失い、出発地点で復旧します。</p><p><b>航海記録</b>　一時停止メニューの「手動セーブ」で現在の進行を保存できます。プレイ時間5分ごとに同じブラウザへ自動保存します。採取やスキャンの完了時、メニューを開いた時にも保存します。各端末メニューを開くと航行は一時停止します。</p></div>'}
 function resetPage(){
  return '<p class="note">このブラウザに保存した所持品・装備・強化・航海記録をすべて消去し、新しい海域で最初から始めます。消去した記録は復元できません。</p><div class="pauseActions">'+button('キャンセル','resume')+'<button type="button" class="action resetConfirm" data-act="confirmReset">リセットする</button></div>'+(feedback?'<p class="noticeLine" role="alert">'+esc(feedback)+'</p>':'');
 }
@@ -4449,11 +4552,12 @@ function confirmReset(){
  startSavedDive(state);
 }
 function showPanel(keep=false){const body=$('bodyPanel'),scroll=keep?body.scrollTop:0;const t=titles[modal];if(!t)return;$('dlgCode').textContent=t[0];$('dlgTitle').textContent=t[1];
- body.innerHTML=modal==='reset'?resetPage():modal==='craft'?craftList():modal==='cargo'?cargoPage():modal==='fit'?fitPage():modal==='nav'?navPage():modal==='help'?manual():'<p class="note">'+(storageError?'このブラウザで自動保存を利用できません。':'航海記録をこのブラウザに保存しました。')+'</p><div class="pauseActions">'+button('潜航を再開','resume',false,true)+button('操作ガイド','help')+button('HTMLを保存','download')+'</div>';body.scrollTop=scroll;if(modal==='nav'&&tab==='fauna')drawSpecimen();
+ body.innerHTML=modal==='reset'?resetPage():modal==='craft'?craftList():modal==='cargo'?cargoPage():modal==='fit'?fitPage():modal==='nav'?navPage():modal==='help'?manual():'<p class="note">'+(feedback|| (storageError?'このブラウザで自動保存を利用できません。':'航海記録をこのブラウザに保存しました。'))+'</p><div class="pauseActions">'+button('潜航を再開','resume',false,true)+button('手動セーブ','manualSave')+button('操作ガイド','help')+button('HTMLを保存','download')+'</div>';body.scrollTop=scroll;if(modal==='nav'&&tab==='fauna')drawSpecimen();
 }
 function scaledRecipe(k,n){return Object.fromEntries(Object.entries(recipes[k]).map(([id,q])=>[id,q*n]))}
-function craft(k){if(!recipes[k]||!planReady(k)||mods.includes(k)&&k!=='filter'&&mk(k)||k==='bench'&&g.bench)return;const n=mods.includes(k)||k==='bench'?1:craftBatch,r=scaledRecipe(k,n);if(!afford(r))return;pay(r);if(k==='bench')g.bench=true;else if(k==='filter'){g.filters.push({id:++g.filterSerial,hp:60});g.owned.filter=g.filters.length}else if(mods.includes(k))g.owned[k]=1;else credit(k==='hard2'?'hard':k,n);craftedItem(k,n);const amount=n;feedback=names[k]+(amount>1?' ×'+amount:'')+'を製作しました';log(feedback);sound(690,.18,'triangle',.045,1000)}
+function craft(k){if(!recipes[k]||!planReady(k)||mods.includes(k)&&k!=='bomb'&&k!=='filter'&&mk(k)||k==='bench'&&g.bench)return;const n=mods.includes(k)||k==='bench'?1:craftBatch,r=scaledRecipe(k,n);if(!afford(r))return;pay(r);if(k==='bench')g.bench=true;else if(k==='filter'){g.filters.push({id:++g.filterSerial,hp:60});g.owned.filter=g.filters.length}else if(k==='bomb')g.owned.bomb=mk(k)+1;else if(mods.includes(k))g.owned[k]=1;else credit(k==='hard2'?'hard':k,n);craftedItem(k,n);const amount=n;feedback=names[k]+(amount>1?' ×'+amount:'')+'を製作しました';log(feedback);sound(690,.18,'triangle',.045,1000)}
 function panelAction(a){
+ if(a==='manualSave'){save();toast(storageError?'保存できませんでした':'手動セーブ完了');feedback=storageError?'保存できませんでした。':'手動セーブ完了　'+fmtTime(g.clock);showPanel(true);return}
  if(a==='confirmReset'){confirmReset();return}
  if(a.startsWith('batch:')){const n=Number(a.slice(6));if([1,5,10].includes(n))craftBatch=n;feedback='';showPanel(true);return}
  if(a==='resume'){closePanel();return}if(a==='help'){openPanel('help');return}if(a==='download'){const l=document.createElement('a');l.href=location.href.split('#')[0];l.download='HADAL-DIVE.html';l.click();return}
@@ -4461,9 +4565,9 @@ function panelAction(a){
  if(a==='hull'){const h=g.hull+1,r=hullRecipe(h);if(!afford(r))return;pay(r);g.hull=h;addCount('craft');feedback='外殻を強化しました。圧壊深度 '+limit()+' m';log(feedback);sound(320,.35,'triangle',.055,840)}
  else if(a==='placeBeacon'){placeBeacon()}
  else if(a==='repair'){if(g.hp>=100||inv('repair')<1)return;g.inv.repair--;g.hp=Math.min(100,g.hp+30);feedback='修理完了。現在の耐久度 '+Math.ceil(g.hp);log(feedback);sound(420,.2,'sine',.045,830)}
- else if(a==='travel'){if(!canTransfer(g.y)||transition||modal!=='nav')return;if(playerBeacons().length)peak('left');addCount('travel');breakTrip();g.sector++;g.seed=seedNew();g.fieldLog={};g.signals={};taken.clear();dug.clear();dead.clear();harvest=null;selected=null;shots.length=rings.length=parts.length=floats.length=scans.length=0;sonarTime=boostTime=screwTime=0;vx=vy=angle=0;aim={x:1,y:0};g.face=1;g.x=start.x;g.y=0;makeWorld();camX=g.x;camY=g.y;invul=2;transition={mode:'travel',t:1.5};log('海域 '+g.sector+' の水面（0 m）へ移動しました。');save();closePanel();return}
+ else if(a==='travel'){if(!canTransfer(g.y)||transition||modal!=='nav')return;if(playerBeacons().length)peak('left');addCount('travel');breakTrip();g.sector++;g.legacyShelf=false;g.seed=seedNew();g.fieldLog={};g.signals={};taken.clear();dug.clear();dead.clear();harvest=null;selected=null;shots.length=rings.length=parts.length=floats.length=scans.length=0;sonarTime=boostTime=screwTime=0;vx=vy=angle=0;aim={x:1,y:0};g.face=1;g.x=start.x;g.y=0;makeWorld();camX=g.x;camY=g.y;invul=2;transition={mode:'travel',t:1.5};log('海域 '+g.sector+' の水面（0 m）へ移動しました。');save();closePanel();return}
  else if(a.startsWith('make:'))craft(a.slice(5));
- else if(a.startsWith('up:')){const k=a.slice(3),r=upRecipes[k];if(!g.bench||mk(k)!==1||g.cd[k]>0||!afford(r))return;pay(r);g.owned[k]=2;addCount('craft');updateEquipmentGoals();feedback=names[k]+'を改型に強化しました';log(feedback);sound(390,.3,'triangle',.05,920)}save();showPanel(true);refreshHud()
+ else if(a.startsWith('up:')){const k=a.slice(3),r=upRecipes[k];if(!r||!g.bench||mk(k)!==1||g.cd[k]>0||!afford(r))return;pay(r);g.owned[k]=2;addCount('craft');updateEquipmentGoals();feedback=names[k]+'を改型に強化しました';log(feedback);sound(390,.3,'triangle',.05,920)}save();showPanel(true);refreshHud()
 }
 document.querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>openPanel(b.dataset.open)));
 $('close').addEventListener('click',closePanel);$('overlay').addEventListener('click',e=>{if(e.target===$('overlay'))closePanel()});
@@ -4562,7 +4666,7 @@ const sea=$('sea'),ctx=sea.getContext('2d',{alpha:false}),scope=$('screen');
 let scannerTarget=null;
 let zoom=2.45,lastFrame=0,cssRatio=1,screenW=480,screenH=250;
 function sizeScene(){const box=scope.getBoundingClientRect();if(!(box.width>0&&box.height>0))return;
- const px=clamp(box.height/248,1.35,3.4);screenW=Math.max(160,Math.round(box.width/px));screenH=Math.max(112,Math.round(box.height/px));if(screenW!==sea.width||screenH!==sea.height){sea.width=screenW;sea.height=screenH}ctx.imageSmoothingEnabled=false;zoom=screenW<280?2.0:2.35;cssRatio=box.width/screenW;$('scaleLine').style.width=Math.round(worldUnits(3)*zoom*cssRatio)+'px'
+ const px=clamp(box.height/248,1.35,3.4);screenW=Math.max(160,Math.round(box.width/px));screenH=Math.max(112,Math.round(box.height/px));if(screenW!==sea.width||screenH!==sea.height){sea.width=screenW;sea.height=screenH}ctx.imageSmoothingEnabled=false;zoom=screenW<280?2.6:3.05;cssRatio=box.width/screenW;$('scaleLine').style.width=Math.round(worldUnits(3)*zoom*cssRatio)+'px'
 }
 function objective(){if(g.reachedFloor)return ['海溝底に到達','別の海域の深淵も探索できます。'];if(!g.mined)return ['最初の鉱床を採掘','青緑の結晶に近づき、採取しよう。'];if(!g.hull){if(!inv('tiI')&&inv('ti')>=10)return ['チタンをインゴッドに加工','「製作・強化」の基本製作を開こう。'];return ['外殻を1段階強化','チタンのインゴッド1個と銅5個を用意しよう。']}
  if(meters(g.best)<150)return ['水素結晶を探す','深度150 m以深の黄緑の結晶を採取しよう。'];if(!g.bench&&!mods.some(k=>mk(k)))return ['モジュールを製作','採取した資源を加工し、装備を整えよう。'];if(g.sector===1)return ['新しい海域へ移動','深度0〜100 mで航海端末を開こう。'];return ['到達深度を更新','外殻と燃料を整え、さらに深くへ。']}
@@ -4580,7 +4684,7 @@ function refreshHud(){const depth=meters(g.y),d=Math.floor(depth),biome=biomes[b
  const pressureRate=pressureDamagePerSecond(g.y);
  const zone=zoneAt(g.x,g.y);const warn=zone?(has('filter')?'☢ 放射線防護中　残量 '+Math.ceil(g.filters.filter(f=>g.filterSlots.includes(f.id)).reduce((n,f)=>n+f.hp,0))+'秒':'☢ 放射線汚染　耐久 −5/秒'):ventHeat()>0?'⚠ 熱水噴出口：高温損傷':pressureRate>0?'⚠ 圧壊深度超過　耐久 −'+pressureRate.toFixed(1)+'/秒':localLife.some(e=>e.hp>0&&e.draining)?'⚠ エレクトロジェリーが電力を吸収中':venomLeft>0?'⚠ 毒針による耐久度低下':g.ep<120?'⚠ 電力低下':g.hp<28?'⚠ 耐久度低下':'';
  $('warning').textContent=warn;$('warning').classList.toggle('hidden',!warn||!!transition);
- for(let i=0;i<2;i++){const k=g.active[i],s=k?(g.cd[k]>0?Math.ceil(g.cd[k])+'秒':names[k]+(mk(k)===2?' 改':'')):'未装備';$(i?'sc':'sq').textContent=s;$(i?'tc':'tq').textContent=(i?'C ':'Q ')+(k?(g.cd[k]>0?Math.ceil(g.cd[k])+'秒':({pulse:'パルス',drill:'ドリル',sonar:'ソナー',stun:'電撃',torp:'魚雷'}[k])):'装備')}
+ for(let i=0;i<2;i++){const k=g.active[i],s=k?(g.cd[k]>0?Math.ceil(g.cd[k])+'秒':names[k]+(k==='bomb'?' ×'+mk(k):mk(k)===2?' 改':'')):'未装備';$(i?'sc':'sq').textContent=s;$(i?'tc':'tq').textContent=(i?'C ':'Q ')+(k?(g.cd[k]>0?Math.ceil(g.cd[k])+'秒':({pulse:'パルス',drill:'ドリル',sonar:'ソナー',stun:'電撃',torp:'魚雷',bomb:'爆弾'}[k])):'装備')}
  const c=$('wave').getContext('2d');c.clearRect(0,0,110,36);c.lineWidth=1;c.strokeStyle='#24473f';c.beginPath();for(let i=1;i<6;i++){c.moveTo(i*19,0);c.lineTo(i*19,36)}for(let y=6;y<36;y+=12){c.moveTo(0,y);c.lineTo(110,y)}c.stroke();const low=Math.min(...history)-5,span=Math.max(17,Math.max(...history)-low+5);c.strokeStyle='#77c8a8';c.beginPath();let end=0;for(let i=0;i<history.length;i++){end=5+(history[i]-low)/span*25;const x=i*108/(history.length-1);if(!i)c.moveTo(x,end);else c.lineTo(x,end)}c.stroke();c.fillStyle='#a5edca';c.fillRect(106,end-1,3,3)
 }
 function drawFrame(dt){
@@ -4592,7 +4696,7 @@ function drawFrame(dt){
  camX=clamp(camX+(targetX-camX)*follow,halfX,WORLD_W-halfX);camY=clamp(camY+(targetY-camY)*follow,halfY*.16,WORLD_H-halfY);
  const cx=camX+(shake&&!modal?(Math.random()-.5)*shake:0),cy=camY+(shake&&!modal?(Math.random()-.5)*shake:0);
  const v={w,h,cx,cy,zoom,time:t,seed:g.seed,depth:g.y,tile:TILE,solid,hash},xOf=x=>Math.round((x-cx)*zoom+w/2),yOf=y=>Math.round((y-cy)*zoom+h/2),inView=(x,y,p=26)=>x>-p&&x<w+p&&y>-p&&y<h+p;
- ctx.imageSmoothingEnabled=false;paintOcean(ctx,v);paintReef(ctx,v);drawRegionEnvironment(ctx,v,false);
+ ctx.imageSmoothingEnabled=false;paintOcean(ctx,v);paintBiomeHorizon(ctx,v);paintReef(ctx,v);drawRegionEnvironment(ctx,v,false);
  const wreck=shipAtDepth(cy);
  if(wreck&&Math.abs(wreck.y-cy)<halfY+56&&Math.abs(wreck.x-cx)<halfX+190)paintLostShip(ctx,wreck,xOf,yOf,zoom,t);
  for(const o of localSites){if(o.kind==='chest'){paintShipChest(ctx,xOf(o.x),yOf(o.y),zoom,!!g.fieldLog[o.id+'/chamber'],t);continue}const x=xOf(o.x),y=yOf(o.y);if(inView(x,y,o.kind==='base'?100:24))paintExpeditionObject(ctx,o,x,y,zoom,t,facilityState(o))}
@@ -4651,7 +4755,7 @@ function drawFrame(dt){
  }
  if(invul>0&&Math.floor(t*10)%2){ctx.strokeStyle='#b6f3d5';ctx.beginPath();ctx.ellipse(sx,sy,22,12,angle,0,TAU);ctx.stroke()}
  for(const r of rings){ctx.save();const k=r.age/r.dur;ctx.globalAlpha=1-k;ctx.strokeStyle=r.color;ctx.lineWidth=k>.5?1:2;ctx.beginPath();ctx.arc(xOf(r.x),yOf(r.y),Math.max(.1,r.r*zoom*k),0,TAU);ctx.stroke();ctx.restore()}
- for(const p of shots){const x=xOf(p.x),y=yOf(p.y);ctx.save();ctx.translate(x,y);ctx.rotate(Math.atan2(p.dy,p.dx));if(p.kind==='torp'){ctx.fillStyle='#f4b05d';ctx.fillRect(-5,-2,10,4);ctx.fillStyle='#f6e8bd';ctx.fillRect(2,-1,4,2);ctx.fillStyle='#f0804b';ctx.fillRect(-9,-1,4,2)}else{ctx.strokeStyle='#bcf2ff';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(-11,0);ctx.lineTo(-6,-2);ctx.lineTo(-4,2);ctx.lineTo(2,0);ctx.stroke()}ctx.restore()}
+ for(const p of shots){const x=xOf(p.x),y=yOf(p.y);ctx.save();ctx.translate(x,y);ctx.rotate(Math.atan2(p.dy,p.dx));if(p.kind==='bomb'){ctx.fillStyle='#384552';ctx.fillRect(-4,-4,8,8);ctx.fillStyle='#eeb660';ctx.fillRect(-3,-2,6,2);ctx.fillStyle='#f3dfab';ctx.fillRect(2,-5,2,2)}else if(p.kind==='torp'){ctx.fillStyle='#f4b05d';ctx.fillRect(-5,-2,10,4);ctx.fillStyle='#f6e8bd';ctx.fillRect(2,-1,4,2);ctx.fillStyle='#f0804b';ctx.fillRect(-9,-1,4,2)}else{ctx.strokeStyle='#bcf2ff';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(-11,0);ctx.lineTo(-6,-2);ctx.lineTo(-4,2);ctx.lineTo(2,0);ctx.stroke()}ctx.restore()}
  for(const p of parts){if(p.y<0)continue;ctx.globalAlpha=Math.min(1,p.life*2);ctx.fillStyle=p.color;ctx.fillRect(xOf(p.x),yOf(p.y),p.sz,p.sz)}ctx.globalAlpha=1;
  if(sonarTime>0){for(const a of scans){if(a.kind?taken.has(a.id):a.hp<=0)continue;const dx=a.x-g.x,dy=a.y-g.y,ang=Math.atan2(dy,dx);ctx.save();ctx.translate(sx+Math.cos(ang)*24,sy+Math.sin(ang)*24);ctx.rotate(ang);ctx.fillStyle=a.atk?'#ffa399':'#80f5c2';ctx.beginPath();ctx.moveTo(4,0);ctx.lineTo(-2,-2);ctx.lineTo(-2,2);ctx.fill();ctx.restore()}}
  if(deviceTarget&&!modal&&!transition){
